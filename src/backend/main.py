@@ -1,5 +1,6 @@
 from fastapi import FastAPI
 from backend.db.qdrant import qdrant_client
+from backend.services.embedding_service import create_embedding
 from qdrant_client.models import Distance, VectorParams, PointStruct
 
 # Now here creating object of FastAPI class
@@ -13,6 +14,18 @@ app = FastAPI(
 def root():
     return {
         "message": "IntelliDocs API is running"
+    }
+
+
+@app.get("/embeddings/test")
+def test_embedding():
+    text = "Employees get 12 casual leaves per year."
+    vector = create_embedding(text)
+
+    return {
+        "text": text,
+        "vector_size": len(vector),
+        "vector_preview": vector[:5],
     }
     
 @app.get("/health")
@@ -130,4 +143,3 @@ def search_documents():
             for point in results.points
         ]
     }
-    
