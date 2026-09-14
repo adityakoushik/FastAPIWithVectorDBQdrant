@@ -3,6 +3,11 @@ from backend.db.qdrant import qdrant_client
 from backend.services.embedding_service import create_embedding
 from qdrant_client.models import Distance, VectorParams, PointStruct
 
+from backend.schema.search import SearchRequest
+from backend.schema.document import DocumentCreate
+
+from uuid import uuid4
+
 # Now here creating object of FastAPI class
 app = FastAPI(
     title="IntelliDocs API",
@@ -139,6 +144,73 @@ def search_documents():
                 "id": point.id,
                 "score": point.score,
                 "payload": point.payload
+            }
+            for point in results.points
+        ]
+    }
+
+
+# ! Store Real Embeddings in Qdrant
+@app.post("/collections/documents-v2")
+def create_documents_v2_collection():
+    qdrant_client.create_collection(
+        collection_name = "documents_v2",
+        vectors_config = VectorParams(
+            size=384,
+            distance=Distance.COSINE
+        )
+    )
+    return{
+        "message": "Documents_v2 collection created successfully"
+    }
+    
+@app.post("/documents-v2/seed")
+def seed_real_documents(document: DocumentCreate):
+
+    document_id = str(uuid4())
+
+    vector = create_embedding(document.text)
+    
+    point = PointStruct(
+        id = document_id,
+        vector = vector,
+        payload = {
+            "text": document.text,
+            "source": document.source,
+            "category": document.category
+        }
+    )
+    
+    qdrant_client.upsert(
+        collection_name = "documents_v2",
+        points=[point]
+    )
+    
+    return {
+        "message": "Document stored successfully",
+        "id": document_id,
+        "text": document.text,
+        "source": document.source,
+        "category": document.category
+    }
+    
+@app.post("/documents-v2/search")
+def search_real_documents(request: SearchRequest):
+    query_vector = create_embedding(request.query)
+    results = qdrant_client.query_points(
+        collection_name = "documents_v2",
+        query = query_vector,
+        limit = 3,
+        score_threshold = 0.4
+    )
+    
+    return {
+        "query": request.query,
+        "results": [
+            {
+                "id": point.id,
+                "score": point.score,
+                "payload":point.payload
             }
             for point in results.points
         ]

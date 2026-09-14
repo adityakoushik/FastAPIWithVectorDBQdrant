@@ -1,4 +1,4 @@
-from sentence_transformers import SentenceTransformer
+from sentence_transformers import SentenceTransformer  # type: ignore[import-not-found]
 
 
 embedding_model = SentenceTransformer("all-MiniLM-L6-v2")
