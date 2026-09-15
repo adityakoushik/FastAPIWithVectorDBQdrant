@@ -107,35 +107,11 @@
         "documentation": {}
     },
     {
-        "label": "QdrantClient",
-        "importPath": "qdrant_client",
-        "description": "qdrant_client",
+        "label": "APIRouter",
+        "importPath": "fastapi",
+        "description": "fastapi",
         "isExtraImport": true,
-        "detail": "qdrant_client",
-        "documentation": {}
-    },
-    {
-        "label": "BaseModel",
-        "importPath": "pydantic",
-        "description": "pydantic",
-        "isExtraImport": true,
-        "detail": "pydantic",
-        "documentation": {}
-    },
-    {
-        "label": "BaseModel",
-        "importPath": "pydantic",
-        "description": "pydantic",
-        "isExtraImport": true,
-        "detail": "pydantic",
-        "documentation": {}
-    },
-    {
-        "label": "SentenceTransformer",
-        "importPath": "sentence_transformers",
-        "description": "sentence_transformers",
-        "isExtraImport": true,
-        "detail": "sentence_transformers",
+        "detail": "fastapi",
         "documentation": {}
     },
     {
@@ -147,11 +123,99 @@
         "documentation": {}
     },
     {
-        "label": "qdrant_client",
-        "importPath": "backend.db.qdrant",
-        "description": "backend.db.qdrant",
+        "label": "DocumentCreate",
+        "importPath": "backend.schemas.document",
+        "description": "backend.schemas.document",
         "isExtraImport": true,
-        "detail": "backend.db.qdrant",
+        "detail": "backend.schemas.document",
+        "documentation": {}
+    },
+    {
+        "label": "SearchRequest",
+        "importPath": "backend.schemas.document",
+        "description": "backend.schemas.document",
+        "isExtraImport": true,
+        "detail": "backend.schemas.document",
+        "documentation": {}
+    },
+    {
+        "label": "DocumentCreate",
+        "importPath": "backend.schemas.document",
+        "description": "backend.schemas.document",
+        "isExtraImport": true,
+        "detail": "backend.schemas.document",
+        "documentation": {}
+    },
+    {
+        "label": "SearchRequest",
+        "importPath": "backend.schemas.document",
+        "description": "backend.schemas.document",
+        "isExtraImport": true,
+        "detail": "backend.schemas.document",
+        "documentation": {}
+    },
+    {
+        "label": "create_demo_documents_collection",
+        "importPath": "backend.services.document_service",
+        "description": "backend.services.document_service",
+        "isExtraImport": true,
+        "detail": "backend.services.document_service",
+        "documentation": {}
+    },
+    {
+        "label": "create_real_documents_collection",
+        "importPath": "backend.services.document_service",
+        "description": "backend.services.document_service",
+        "isExtraImport": true,
+        "detail": "backend.services.document_service",
+        "documentation": {}
+    },
+    {
+        "label": "get_health_status",
+        "importPath": "backend.services.document_service",
+        "description": "backend.services.document_service",
+        "isExtraImport": true,
+        "detail": "backend.services.document_service",
+        "documentation": {}
+    },
+    {
+        "label": "list_collections",
+        "importPath": "backend.services.document_service",
+        "description": "backend.services.document_service",
+        "isExtraImport": true,
+        "detail": "backend.services.document_service",
+        "documentation": {}
+    },
+    {
+        "label": "search_demo_documents",
+        "importPath": "backend.services.document_service",
+        "description": "backend.services.document_service",
+        "isExtraImport": true,
+        "detail": "backend.services.document_service",
+        "documentation": {}
+    },
+    {
+        "label": "search_real_documents",
+        "importPath": "backend.services.document_service",
+        "description": "backend.services.document_service",
+        "isExtraImport": true,
+        "detail": "backend.services.document_service",
+        "documentation": {}
+    },
+    {
+        "label": "seed_demo_documents",
+        "importPath": "backend.services.document_service",
+        "description": "backend.services.document_service",
+        "isExtraImport": true,
+        "detail": "backend.services.document_service",
+        "documentation": {}
+    },
+    {
+        "label": "seed_real_document",
+        "importPath": "backend.services.document_service",
+        "description": "backend.services.document_service",
+        "isExtraImport": true,
+        "detail": "backend.services.document_service",
         "documentation": {}
     },
     {
@@ -163,6 +227,94 @@
         "documentation": {}
     },
     {
+        "label": "create_embedding",
+        "importPath": "backend.services.embedding_service",
+        "description": "backend.services.embedding_service",
+        "isExtraImport": true,
+        "detail": "backend.services.embedding_service",
+        "documentation": {}
+    },
+    {
+        "label": "BaseModel",
+        "importPath": "pydantic",
+        "description": "pydantic",
+        "isExtraImport": true,
+        "detail": "pydantic",
+        "documentation": {}
+    },
+    {
+        "label": "BaseModel",
+        "importPath": "pydantic",
+        "description": "pydantic",
+        "isExtraImport": true,
+        "detail": "pydantic",
+        "documentation": {}
+    },
+    {
+        "label": "Field",
+        "importPath": "pydantic",
+        "description": "pydantic",
+        "isExtraImport": true,
+        "detail": "pydantic",
+        "documentation": {}
+    },
+    {
+        "label": "QdrantClient",
+        "importPath": "qdrant_client",
+        "description": "qdrant_client",
+        "isExtraImport": true,
+        "detail": "qdrant_client",
+        "documentation": {}
+    },
+    {
+        "label": "settings",
+        "importPath": "backend.core.config",
+        "description": "backend.core.config",
+        "isExtraImport": true,
+        "detail": "backend.core.config",
+        "documentation": {}
+    },
+    {
+        "label": "settings",
+        "importPath": "backend.core.config",
+        "description": "backend.core.config",
+        "isExtraImport": true,
+        "detail": "backend.core.config",
+        "documentation": {}
+    },
+    {
+        "label": "settings",
+        "importPath": "backend.core.config",
+        "description": "backend.core.config",
+        "isExtraImport": true,
+        "detail": "backend.core.config",
+        "documentation": {}
+    },
+    {
+        "label": "ABC",
+        "importPath": "abc",
+        "description": "abc",
+        "isExtraImport": true,
+        "detail": "abc",
+        "documentation": {}
+    },
+    {
+        "label": "abstractmethod",
+        "importPath": "abc",
+        "description": "abc",
+        "isExtraImport": true,
+        "detail": "abc",
+        "documentation": {}
+    },
+    {
+        "label": "DocumentParser",
+        "importPath": "src.backend.parsers.document_parser",
+        "description": "src.backend.parsers.document_parser",
+        "isExtraImport": true,
+        "detail": "src.backend.parsers.document_parser",
+        "documentation": {}
+    },
+    {
         "label": "Distance",
         "importPath": "qdrant_client.models",
         "description": "qdrant_client.models",
@@ -171,7 +323,23 @@
         "documentation": {}
     },
     {
-        "label": "VectorParams",
+        "label": "FieldCondition",
+        "importPath": "qdrant_client.models",
+        "description": "qdrant_client.models",
+        "isExtraImport": true,
+        "detail": "qdrant_client.models",
+        "documentation": {}
+    },
+    {
+        "label": "Filter",
+        "importPath": "qdrant_client.models",
+        "description": "qdrant_client.models",
+        "isExtraImport": true,
+        "detail": "qdrant_client.models",
+        "documentation": {}
+    },
+    {
+        "label": "MatchValue",
         "importPath": "qdrant_client.models",
         "description": "qdrant_client.models",
         "isExtraImport": true,
@@ -187,19 +355,19 @@
         "documentation": {}
     },
     {
-        "label": "SearchRequest",
-        "importPath": "backend.schema.search",
-        "description": "backend.schema.search",
+        "label": "VectorParams",
+        "importPath": "qdrant_client.models",
+        "description": "qdrant_client.models",
         "isExtraImport": true,
-        "detail": "backend.schema.search",
+        "detail": "qdrant_client.models",
         "documentation": {}
     },
     {
-        "label": "DocumentCreate",
-        "importPath": "backend.schema.document",
-        "description": "backend.schema.document",
+        "label": "qdrant_client",
+        "importPath": "backend.db.qdrant",
+        "description": "backend.db.qdrant",
         "isExtraImport": true,
-        "detail": "backend.schema.document",
+        "detail": "backend.db.qdrant",
         "documentation": {}
     },
     {
@@ -208,6 +376,94 @@
         "description": "uuid",
         "isExtraImport": true,
         "detail": "uuid",
+        "documentation": {}
+    },
+    {
+        "label": "parse_document_text",
+        "importPath": "backend.parsers.document_parser",
+        "description": "backend.parsers.document_parser",
+        "isExtraImport": true,
+        "detail": "backend.parsers.document_parser",
+        "documentation": {}
+    },
+    {
+        "label": "create_demo_collection",
+        "importPath": "backend.repositories.vector_repository",
+        "description": "backend.repositories.vector_repository",
+        "isExtraImport": true,
+        "detail": "backend.repositories.vector_repository",
+        "documentation": {}
+    },
+    {
+        "label": "create_documents_collection",
+        "importPath": "backend.repositories.vector_repository",
+        "description": "backend.repositories.vector_repository",
+        "isExtraImport": true,
+        "detail": "backend.repositories.vector_repository",
+        "documentation": {}
+    },
+    {
+        "label": "get_collection_names",
+        "importPath": "backend.repositories.vector_repository",
+        "description": "backend.repositories.vector_repository",
+        "isExtraImport": true,
+        "detail": "backend.repositories.vector_repository",
+        "documentation": {}
+    },
+    {
+        "label": "get_collections_count",
+        "importPath": "backend.repositories.vector_repository",
+        "description": "backend.repositories.vector_repository",
+        "isExtraImport": true,
+        "detail": "backend.repositories.vector_repository",
+        "documentation": {}
+    },
+    {
+        "label": "search_demo_points",
+        "importPath": "backend.repositories.vector_repository",
+        "description": "backend.repositories.vector_repository",
+        "isExtraImport": true,
+        "detail": "backend.repositories.vector_repository",
+        "documentation": {}
+    },
+    {
+        "label": "search_documents",
+        "importPath": "backend.repositories.vector_repository",
+        "description": "backend.repositories.vector_repository",
+        "isExtraImport": true,
+        "detail": "backend.repositories.vector_repository",
+        "documentation": {}
+    },
+    {
+        "label": "seed_demo_points",
+        "importPath": "backend.repositories.vector_repository",
+        "description": "backend.repositories.vector_repository",
+        "isExtraImport": true,
+        "detail": "backend.repositories.vector_repository",
+        "documentation": {}
+    },
+    {
+        "label": "upsert_document",
+        "importPath": "backend.repositories.vector_repository",
+        "description": "backend.repositories.vector_repository",
+        "isExtraImport": true,
+        "detail": "backend.repositories.vector_repository",
+        "documentation": {}
+    },
+    {
+        "label": "SentenceTransformer",
+        "importPath": "sentence_transformers",
+        "description": "sentence_transformers",
+        "isExtraImport": true,
+        "detail": "sentence_transformers",
+        "documentation": {}
+    },
+    {
+        "label": "router",
+        "importPath": "backend.api.routes.documents",
+        "description": "backend.api.routes.documents",
+        "isExtraImport": true,
+        "detail": "backend.api.routes.documents",
         "documentation": {}
     },
     {
@@ -571,30 +827,309 @@
         "documentation": {}
     },
     {
+        "label": "root",
+        "kind": 2,
+        "importPath": "src.backend.api.routes.documents",
+        "description": "src.backend.api.routes.documents",
+        "peekOfCode": "def root():\n    return {\n        \"message\": \"IntelliDocs API is running\"\n    }\n@router.get(\"/embeddings/test\")\ndef test_embedding():\n    text = \"Employees get 12 casual leaves per year.\"\n    vector = create_embedding(text)\n    return {\n        \"text\": text,",
+        "detail": "src.backend.api.routes.documents",
+        "documentation": {}
+    },
+    {
+        "label": "test_embedding",
+        "kind": 2,
+        "importPath": "src.backend.api.routes.documents",
+        "description": "src.backend.api.routes.documents",
+        "peekOfCode": "def test_embedding():\n    text = \"Employees get 12 casual leaves per year.\"\n    vector = create_embedding(text)\n    return {\n        \"text\": text,\n        \"vector_size\": len(vector),\n        \"vector_preview\": vector[:5],\n    }\n@router.get(\"/health\")\ndef health_check():",
+        "detail": "src.backend.api.routes.documents",
+        "documentation": {}
+    },
+    {
+        "label": "health_check",
+        "kind": 2,
+        "importPath": "src.backend.api.routes.documents",
+        "description": "src.backend.api.routes.documents",
+        "peekOfCode": "def health_check():\n    return get_health_status()\n@router.get(\"/collections\")\ndef get_collections():\n    return {\n        \"collections\": list_collections()\n    }\n@router.post(\"/collections/documents\")\ndef create_documents_collection():\n    create_demo_documents_collection()",
+        "detail": "src.backend.api.routes.documents",
+        "documentation": {}
+    },
+    {
+        "label": "get_collections",
+        "kind": 2,
+        "importPath": "src.backend.api.routes.documents",
+        "description": "src.backend.api.routes.documents",
+        "peekOfCode": "def get_collections():\n    return {\n        \"collections\": list_collections()\n    }\n@router.post(\"/collections/documents\")\ndef create_documents_collection():\n    create_demo_documents_collection()\n    return {\n        \"message\": \"Documents collection created successfully\"\n    }",
+        "detail": "src.backend.api.routes.documents",
+        "documentation": {}
+    },
+    {
+        "label": "create_documents_collection",
+        "kind": 2,
+        "importPath": "src.backend.api.routes.documents",
+        "description": "src.backend.api.routes.documents",
+        "peekOfCode": "def create_documents_collection():\n    create_demo_documents_collection()\n    return {\n        \"message\": \"Documents collection created successfully\"\n    }\n@router.post(\"/documents/seed\")\ndef seed_documents():\n    seed_demo_documents()\n    return {\n        \"message\": \"Documents inserted successfully\"",
+        "detail": "src.backend.api.routes.documents",
+        "documentation": {}
+    },
+    {
+        "label": "seed_documents",
+        "kind": 2,
+        "importPath": "src.backend.api.routes.documents",
+        "description": "src.backend.api.routes.documents",
+        "peekOfCode": "def seed_documents():\n    seed_demo_documents()\n    return {\n        \"message\": \"Documents inserted successfully\"\n    }\n@router.get(\"/documents/search\")\ndef search_documents():\n    return {\n        \"results\": search_demo_documents()\n    }",
+        "detail": "src.backend.api.routes.documents",
+        "documentation": {}
+    },
+    {
+        "label": "search_documents",
+        "kind": 2,
+        "importPath": "src.backend.api.routes.documents",
+        "description": "src.backend.api.routes.documents",
+        "peekOfCode": "def search_documents():\n    return {\n        \"results\": search_demo_documents()\n    }\n# ! Store Real Embeddings in Qdrant\n@router.post(\"/collections/documents-v2\")\ndef create_documents_v2_collection():\n    create_real_documents_collection()\n    return {\n        \"message\": \"Documents_v2 collection created successfully\"",
+        "detail": "src.backend.api.routes.documents",
+        "documentation": {}
+    },
+    {
+        "label": "create_documents_v2_collection",
+        "kind": 2,
+        "importPath": "src.backend.api.routes.documents",
+        "description": "src.backend.api.routes.documents",
+        "peekOfCode": "def create_documents_v2_collection():\n    create_real_documents_collection()\n    return {\n        \"message\": \"Documents_v2 collection created successfully\"\n    }\n@router.post(\"/documents-v2/seed\")\ndef seed_real_documents(document: DocumentCreate):\n    return seed_real_document(document)\n@router.post(\"/documents-v2/search\")\ndef search_documents_v2(request: SearchRequest):",
+        "detail": "src.backend.api.routes.documents",
+        "documentation": {}
+    },
+    {
+        "label": "seed_real_documents",
+        "kind": 2,
+        "importPath": "src.backend.api.routes.documents",
+        "description": "src.backend.api.routes.documents",
+        "peekOfCode": "def seed_real_documents(document: DocumentCreate):\n    return seed_real_document(document)\n@router.post(\"/documents-v2/search\")\ndef search_documents_v2(request: SearchRequest):\n    return search_real_documents(request)",
+        "detail": "src.backend.api.routes.documents",
+        "documentation": {}
+    },
+    {
+        "label": "search_documents_v2",
+        "kind": 2,
+        "importPath": "src.backend.api.routes.documents",
+        "description": "src.backend.api.routes.documents",
+        "peekOfCode": "def search_documents_v2(request: SearchRequest):\n    return search_real_documents(request)",
+        "detail": "src.backend.api.routes.documents",
+        "documentation": {}
+    },
+    {
+        "label": "router",
+        "kind": 5,
+        "importPath": "src.backend.api.routes.documents",
+        "description": "src.backend.api.routes.documents",
+        "peekOfCode": "router = APIRouter()\n@router.get(\"/\")\ndef root():\n    return {\n        \"message\": \"IntelliDocs API is running\"\n    }\n@router.get(\"/embeddings/test\")\ndef test_embedding():\n    text = \"Employees get 12 casual leaves per year.\"\n    vector = create_embedding(text)",
+        "detail": "src.backend.api.routes.documents",
+        "documentation": {}
+    },
+    {
+        "label": "Settings",
+        "kind": 6,
+        "importPath": "src.backend.core.config",
+        "description": "src.backend.core.config",
+        "peekOfCode": "class Settings(BaseModel):\n    qdrant_url: str = os.getenv(\"QDRANT_URL\", \"http://localhost:6333/\")\n    demo_documents_collection: str = os.getenv(\"DEMO_DOCUMENTS_COLLECTION\", \"documents\")\n    documents_collection: str = os.getenv(\"DOCUMENTS_COLLECTION\", \"documents_v2\")\n    demo_vector_size: int = int(os.getenv(\"DEMO_VECTOR_SIZE\", \"3\"))\n    embedding_vector_size: int = int(os.getenv(\"EMBEDDING_VECTOR_SIZE\", \"384\"))\n    embedding_model_name: str = os.getenv(\"EMBEDDING_MODEL_NAME\", \"all-MiniLM-L6-v2\")\n    search_score_threshold: float = float(os.getenv(\"SEARCH_SCORE_THRESHOLD\", \"0.4\"))\nsettings = Settings()",
+        "detail": "src.backend.core.config",
+        "documentation": {}
+    },
+    {
+        "label": "settings",
+        "kind": 5,
+        "importPath": "src.backend.core.config",
+        "description": "src.backend.core.config",
+        "peekOfCode": "settings = Settings()",
+        "detail": "src.backend.core.config",
+        "documentation": {}
+    },
+    {
         "label": "qdrant_client",
         "kind": 5,
         "importPath": "src.backend.db.qdrant",
         "description": "src.backend.db.qdrant",
-        "peekOfCode": "qdrant_client = QdrantClient(\n    url = \"http://localhost:6333/\"\n)",
+        "peekOfCode": "qdrant_client = QdrantClient(\n    url=settings.qdrant_url\n)",
         "detail": "src.backend.db.qdrant",
+        "documentation": {}
+    },
+    {
+        "label": "DocumentParser",
+        "kind": 6,
+        "importPath": "src.backend.parsers.document_parser",
+        "description": "src.backend.parsers.document_parser",
+        "peekOfCode": "class DocumentParser(ABC):\n    @abstractmethod\n    def extract_text(self, file_bytes) -> str:\n        pass",
+        "detail": "src.backend.parsers.document_parser",
+        "documentation": {}
+    },
+    {
+        "label": "parse_pdf_content",
+        "kind": 2,
+        "importPath": "src.backend.parsers.pdf_parser",
+        "description": "src.backend.parsers.pdf_parser",
+        "peekOfCode": "def parse_pdf_content(file_content: bytes) -> str:\n    raise NotImplementedError(\"PDF parsing is not implemented yet.\")",
+        "detail": "src.backend.parsers.pdf_parser",
+        "documentation": {}
+    },
+    {
+        "label": "get_collections_count",
+        "kind": 2,
+        "importPath": "src.backend.repositories.vector_repository",
+        "description": "src.backend.repositories.vector_repository",
+        "peekOfCode": "def get_collections_count() -> int:\n    collections = qdrant_client.get_collections()\n    return len(collections.collections)\ndef get_collection_names() -> list[str]:\n    collections = qdrant_client.get_collections()\n    return [\n        collection.name for collection in collections.collections\n    ]\ndef create_demo_collection() -> None:\n    qdrant_client.create_collection(",
+        "detail": "src.backend.repositories.vector_repository",
+        "documentation": {}
+    },
+    {
+        "label": "get_collection_names",
+        "kind": 2,
+        "importPath": "src.backend.repositories.vector_repository",
+        "description": "src.backend.repositories.vector_repository",
+        "peekOfCode": "def get_collection_names() -> list[str]:\n    collections = qdrant_client.get_collections()\n    return [\n        collection.name for collection in collections.collections\n    ]\ndef create_demo_collection() -> None:\n    qdrant_client.create_collection(\n        collection_name=settings.demo_documents_collection,\n        # VectorParams decides how vectors are stored in Qdrant.\n        vectors_config=VectorParams(",
+        "detail": "src.backend.repositories.vector_repository",
+        "documentation": {}
+    },
+    {
+        "label": "create_demo_collection",
+        "kind": 2,
+        "importPath": "src.backend.repositories.vector_repository",
+        "description": "src.backend.repositories.vector_repository",
+        "peekOfCode": "def create_demo_collection() -> None:\n    qdrant_client.create_collection(\n        collection_name=settings.demo_documents_collection,\n        # VectorParams decides how vectors are stored in Qdrant.\n        vectors_config=VectorParams(\n            size=settings.demo_vector_size,\n            distance=Distance.COSINE,\n        ),\n    )\ndef seed_demo_points() -> None:",
+        "detail": "src.backend.repositories.vector_repository",
+        "documentation": {}
+    },
+    {
+        "label": "seed_demo_points",
+        "kind": 2,
+        "importPath": "src.backend.repositories.vector_repository",
+        "description": "src.backend.repositories.vector_repository",
+        "peekOfCode": "def seed_demo_points() -> None:\n    # These vectors are 3 dimensional manual vectors for learning purpose.\n    points = [\n        PointStruct(\n            id=1,\n            vector=[1.0, 0.0, 0.0],\n            payload={\n                \"text\": \"Employees get 12 casual leaves per year.\"\n            },\n        ),",
+        "detail": "src.backend.repositories.vector_repository",
+        "documentation": {}
+    },
+    {
+        "label": "search_demo_points",
+        "kind": 2,
+        "importPath": "src.backend.repositories.vector_repository",
+        "description": "src.backend.repositories.vector_repository",
+        "peekOfCode": "def search_demo_points() -> list[dict]:\n    # Stored: [1.0, 0.0, 0.0], query: [0.9, 0.1, 0.0]\n    results = qdrant_client.query_points(\n        collection_name=settings.demo_documents_collection,\n        query=[0.9, 0.1, 0.0],\n        limit=3,\n    )\n    return _format_points(results.points)\ndef create_documents_collection() -> None:\n    qdrant_client.create_collection(",
+        "detail": "src.backend.repositories.vector_repository",
+        "documentation": {}
+    },
+    {
+        "label": "create_documents_collection",
+        "kind": 2,
+        "importPath": "src.backend.repositories.vector_repository",
+        "description": "src.backend.repositories.vector_repository",
+        "peekOfCode": "def create_documents_collection() -> None:\n    qdrant_client.create_collection(\n        collection_name=settings.documents_collection,\n        vectors_config=VectorParams(\n            size=settings.embedding_vector_size,\n            distance=Distance.COSINE,\n        ),\n    )\ndef upsert_document(\n    document_id: str,",
+        "detail": "src.backend.repositories.vector_repository",
+        "documentation": {}
+    },
+    {
+        "label": "upsert_document",
+        "kind": 2,
+        "importPath": "src.backend.repositories.vector_repository",
+        "description": "src.backend.repositories.vector_repository",
+        "peekOfCode": "def upsert_document(\n    document_id: str,\n    vector: list[float],\n    text: str,\n    source: str | None,\n    category: str | None,\n) -> None:\n    point = PointStruct(\n        id=document_id,\n        vector=vector,",
+        "detail": "src.backend.repositories.vector_repository",
+        "documentation": {}
+    },
+    {
+        "label": "search_documents",
+        "kind": 2,
+        "importPath": "src.backend.repositories.vector_repository",
+        "description": "src.backend.repositories.vector_repository",
+        "peekOfCode": "def search_documents(\n    query_vector: list[float],\n    limit: int,\n    category: str | None,\n) -> list[dict]:\n    query_filter = _build_category_filter(category)\n    results = qdrant_client.query_points(\n        collection_name=settings.documents_collection,\n        query=query_vector,\n        query_filter=query_filter,",
+        "detail": "src.backend.repositories.vector_repository",
         "documentation": {}
     },
     {
         "label": "DocumentCreate",
         "kind": 6,
-        "importPath": "src.backend.schema.document",
-        "description": "src.backend.schema.document",
-        "peekOfCode": "class DocumentCreate(BaseModel):\n    text: str\n    source: str | None = None\n    category: str | None = None",
-        "detail": "src.backend.schema.document",
+        "importPath": "src.backend.schemas.document",
+        "description": "src.backend.schemas.document",
+        "peekOfCode": "class DocumentCreate(BaseModel):\n    text: str\n    source: str | None = None\n    category: str | None = None\n# Here SearchRequest is the Schema or Structure of request body.\nclass SearchRequest(BaseModel):\n    query: str = Field(min_length=2)\n    limit: int = Field(default=3, ge=1, le=10)\n    category: str | None = None",
+        "detail": "src.backend.schemas.document",
         "documentation": {}
     },
     {
         "label": "SearchRequest",
         "kind": 6,
-        "importPath": "src.backend.schema.search",
-        "description": "src.backend.schema.search",
-        "peekOfCode": "class SearchRequest(BaseModel):\n    query: str\n    limit: int = 3",
-        "detail": "src.backend.schema.search",
+        "importPath": "src.backend.schemas.document",
+        "description": "src.backend.schemas.document",
+        "peekOfCode": "class SearchRequest(BaseModel):\n    query: str = Field(min_length=2)\n    limit: int = Field(default=3, ge=1, le=10)\n    category: str | None = None",
+        "detail": "src.backend.schemas.document",
+        "documentation": {}
+    },
+    {
+        "label": "get_health_status",
+        "kind": 2,
+        "importPath": "src.backend.services.document_service",
+        "description": "src.backend.services.document_service",
+        "peekOfCode": "def get_health_status() -> dict:\n    return {\n        \"status\": \"healthy\",\n        \"qdrant\": \"connected\",\n        \"collections\": get_collections_count(),\n    }\ndef list_collections() -> list[str]:\n    return get_collection_names()\ndef create_demo_documents_collection() -> None:\n    create_demo_collection()",
+        "detail": "src.backend.services.document_service",
+        "documentation": {}
+    },
+    {
+        "label": "list_collections",
+        "kind": 2,
+        "importPath": "src.backend.services.document_service",
+        "description": "src.backend.services.document_service",
+        "peekOfCode": "def list_collections() -> list[str]:\n    return get_collection_names()\ndef create_demo_documents_collection() -> None:\n    create_demo_collection()\ndef seed_demo_documents() -> None:\n    seed_demo_points()\ndef search_demo_documents() -> list[dict]:\n    return search_demo_points()\ndef create_real_documents_collection() -> None:\n    create_documents_collection()",
+        "detail": "src.backend.services.document_service",
+        "documentation": {}
+    },
+    {
+        "label": "create_demo_documents_collection",
+        "kind": 2,
+        "importPath": "src.backend.services.document_service",
+        "description": "src.backend.services.document_service",
+        "peekOfCode": "def create_demo_documents_collection() -> None:\n    create_demo_collection()\ndef seed_demo_documents() -> None:\n    seed_demo_points()\ndef search_demo_documents() -> list[dict]:\n    return search_demo_points()\ndef create_real_documents_collection() -> None:\n    create_documents_collection()\ndef seed_real_document(document: DocumentCreate) -> dict:\n    document_id = str(uuid4())",
+        "detail": "src.backend.services.document_service",
+        "documentation": {}
+    },
+    {
+        "label": "seed_demo_documents",
+        "kind": 2,
+        "importPath": "src.backend.services.document_service",
+        "description": "src.backend.services.document_service",
+        "peekOfCode": "def seed_demo_documents() -> None:\n    seed_demo_points()\ndef search_demo_documents() -> list[dict]:\n    return search_demo_points()\ndef create_real_documents_collection() -> None:\n    create_documents_collection()\ndef seed_real_document(document: DocumentCreate) -> dict:\n    document_id = str(uuid4())\n    text = parse_document_text(document.text)\n    vector = create_embedding(text)",
+        "detail": "src.backend.services.document_service",
+        "documentation": {}
+    },
+    {
+        "label": "search_demo_documents",
+        "kind": 2,
+        "importPath": "src.backend.services.document_service",
+        "description": "src.backend.services.document_service",
+        "peekOfCode": "def search_demo_documents() -> list[dict]:\n    return search_demo_points()\ndef create_real_documents_collection() -> None:\n    create_documents_collection()\ndef seed_real_document(document: DocumentCreate) -> dict:\n    document_id = str(uuid4())\n    text = parse_document_text(document.text)\n    vector = create_embedding(text)\n    upsert_document(\n        document_id=document_id,",
+        "detail": "src.backend.services.document_service",
+        "documentation": {}
+    },
+    {
+        "label": "create_real_documents_collection",
+        "kind": 2,
+        "importPath": "src.backend.services.document_service",
+        "description": "src.backend.services.document_service",
+        "peekOfCode": "def create_real_documents_collection() -> None:\n    create_documents_collection()\ndef seed_real_document(document: DocumentCreate) -> dict:\n    document_id = str(uuid4())\n    text = parse_document_text(document.text)\n    vector = create_embedding(text)\n    upsert_document(\n        document_id=document_id,\n        vector=vector,\n        text=text,",
+        "detail": "src.backend.services.document_service",
+        "documentation": {}
+    },
+    {
+        "label": "seed_real_document",
+        "kind": 2,
+        "importPath": "src.backend.services.document_service",
+        "description": "src.backend.services.document_service",
+        "peekOfCode": "def seed_real_document(document: DocumentCreate) -> dict:\n    document_id = str(uuid4())\n    text = parse_document_text(document.text)\n    vector = create_embedding(text)\n    upsert_document(\n        document_id=document_id,\n        vector=vector,\n        text=text,\n        source=document.source,\n        category=document.category,",
+        "detail": "src.backend.services.document_service",
+        "documentation": {}
+    },
+    {
+        "label": "search_real_documents",
+        "kind": 2,
+        "importPath": "src.backend.services.document_service",
+        "description": "src.backend.services.document_service",
+        "peekOfCode": "def search_real_documents(request: SearchRequest) -> dict:\n    query_vector = create_embedding(request.query)\n    results = search_documents(\n        query_vector=query_vector,\n        limit=request.limit,\n        category=request.category,\n    )\n    return {\n        \"query\": request.query,\n        \"category\": request.category,",
+        "detail": "src.backend.services.document_service",
         "documentation": {}
     },
     {
@@ -611,98 +1146,8 @@
         "kind": 5,
         "importPath": "src.backend.services.embedding_service",
         "description": "src.backend.services.embedding_service",
-        "peekOfCode": "embedding_model = SentenceTransformer(\"all-MiniLM-L6-v2\")\ndef create_embedding(text: str) -> list[float]:\n    embedding = embedding_model.encode(text)\n    return embedding.tolist()",
+        "peekOfCode": "embedding_model = SentenceTransformer(settings.embedding_model_name)\ndef create_embedding(text: str) -> list[float]:\n    embedding = embedding_model.encode(text)\n    return embedding.tolist()",
         "detail": "src.backend.services.embedding_service",
-        "documentation": {}
-    },
-    {
-        "label": "root",
-        "kind": 2,
-        "importPath": "src.backend.main",
-        "description": "src.backend.main",
-        "peekOfCode": "def root():\n    return {\n        \"message\": \"IntelliDocs API is running\"\n    }\n@app.get(\"/embeddings/test\")\ndef test_embedding():\n    text = \"Employees get 12 casual leaves per year.\"\n    vector = create_embedding(text)\n    return {\n        \"text\": text,",
-        "detail": "src.backend.main",
-        "documentation": {}
-    },
-    {
-        "label": "test_embedding",
-        "kind": 2,
-        "importPath": "src.backend.main",
-        "description": "src.backend.main",
-        "peekOfCode": "def test_embedding():\n    text = \"Employees get 12 casual leaves per year.\"\n    vector = create_embedding(text)\n    return {\n        \"text\": text,\n        \"vector_size\": len(vector),\n        \"vector_preview\": vector[:5],\n    }\n@app.get(\"/health\")\ndef health_check():",
-        "detail": "src.backend.main",
-        "documentation": {}
-    },
-    {
-        "label": "health_check",
-        "kind": 2,
-        "importPath": "src.backend.main",
-        "description": "src.backend.main",
-        "peekOfCode": "def health_check():\n    # Here we are checking the health of Qdrant Database by getting the collections from it.\n    collections = qdrant_client.get_collections()\n    return {\n        \"status\": \"healthy\",\n        \"qdrant\": \"connected\",\n        \"collections\": len(collections.collections)\n    }\n@app.get(\"/collections\")\ndef get_collections():",
-        "detail": "src.backend.main",
-        "documentation": {}
-    },
-    {
-        "label": "get_collections",
-        "kind": 2,
-        "importPath": "src.backend.main",
-        "description": "src.backend.main",
-        "peekOfCode": "def get_collections():\n    collections = qdrant_client.get_collections()\n    # collections_name = []\n    # for collection in collections.collections:\n    #     collections_name.append(collection.name)\n    # return {\n    #     \"collections\": collections_name\n    # }\n    # Now Using list comprehension in python to get the collections name from the collections object.\n    return{",
-        "detail": "src.backend.main",
-        "documentation": {}
-    },
-    {
-        "label": "create_documents_collection",
-        "kind": 2,
-        "importPath": "src.backend.main",
-        "description": "src.backend.main",
-        "peekOfCode": "def create_documents_collection():\n    qdrant_client.create_collection(\n        collection_name=\"documents\",\n        # VectorParams is decided that how the collection of vectors will be stored in the Qdrant database. It has two parameters size and distance. \n        # Size is the dimension of the vector which is 3 , means accept only 3 dimensional vector in the collection i.e. [0.2, 0.5, 0.9]\n        # and distance is the distance metric used to calculate the similarity between vectors.\n        # And Similarity method = Cosine, so its Cosine similarity/distance based search\n        vectors_config = VectorParams(\n            size = 3,\n            distance = Distance.COSINE",
-        "detail": "src.backend.main",
-        "documentation": {}
-    },
-    {
-        "label": "seed_documents",
-        "kind": 2,
-        "importPath": "src.backend.main",
-        "description": "src.backend.main",
-        "peekOfCode": "def seed_documents():\n    # points resembles the data that we want to insert into the Qdrant collection. Each point is represented as a PointStruct object, which contains an id, a vector, and optional payload data.\n    points = [\n        # these vectors are 3 dimensional manual vector for learning purpose, in real world we will use embedding model to get the vector representation of the text.\n        PointStruct(\n            id=1,\n            vector=[1.0, 0.0, 0.0],\n            payload={\n                \"text\": \"Employees get 12 casual leaves per year.\"\n            }",
-        "detail": "src.backend.main",
-        "documentation": {}
-    },
-    {
-        "label": "search_documents",
-        "kind": 2,
-        "importPath": "src.backend.main",
-        "description": "src.backend.main",
-        "peekOfCode": "def search_documents():\n    # Example query vector for searching\n    # Stored: [1.0, 0.0, 0.0]\n    # Query : [0.9, 0.1, 0.0]\n    query_vector = [0.9, 0.1, 0.0]\n    # This below means Qdrant, find the points most similar to this query vector.\n    results = qdrant_client.query_points(\n        collection_name=\"documents\",\n        # query_vector = This means Qdrant will compare this vector with the stored vectors.\n        query=query_vector,",
-        "detail": "src.backend.main",
-        "documentation": {}
-    },
-    {
-        "label": "create_documents_v2_collection",
-        "kind": 2,
-        "importPath": "src.backend.main",
-        "description": "src.backend.main",
-        "peekOfCode": "def create_documents_v2_collection():\n    qdrant_client.create_collection(\n        collection_name = \"documents_v2\",\n        vectors_config = VectorParams(\n            size=384,\n            distance=Distance.COSINE\n        )\n    )\n    return{\n        \"message\": \"Documents_v2 collection created successfully\"",
-        "detail": "src.backend.main",
-        "documentation": {}
-    },
-    {
-        "label": "seed_real_documents",
-        "kind": 2,
-        "importPath": "src.backend.main",
-        "description": "src.backend.main",
-        "peekOfCode": "def seed_real_documents(document: DocumentCreate):\n    document_id = str(uuid4())\n    vector = create_embedding(document.text)\n    point = PointStruct(\n        id = document_id,\n        vector = vector,\n        payload = {\n            \"text\": document.text,\n            \"source\": document.source,\n            \"category\": document.category",
-        "detail": "src.backend.main",
-        "documentation": {}
-    },
-    {
-        "label": "search_real_documents",
-        "kind": 2,
-        "importPath": "src.backend.main",
-        "description": "src.backend.main",
-        "peekOfCode": "def search_real_documents(request: SearchRequest):\n    query_vector = create_embedding(request.query)\n    results = qdrant_client.query_points(\n        collection_name = \"documents_v2\",\n        query = query_vector,\n        limit = 3,\n        score_threshold = 0.4\n    )\n    return {\n        \"query\": request.query,",
-        "detail": "src.backend.main",
         "documentation": {}
     },
     {
@@ -710,7 +1155,7 @@
         "kind": 5,
         "importPath": "src.backend.main",
         "description": "src.backend.main",
-        "peekOfCode": "app = FastAPI(\n    title=\"IntelliDocs API\",\n    description=\"AI-powered document knowledge base using Vector Database\",\n    version=\"1.0.0\",\n)\n@app.get(\"/\")\ndef root():\n    return {\n        \"message\": \"IntelliDocs API is running\"\n    }",
+        "peekOfCode": "app = FastAPI(\n    title=\"IntelliDocs API\",\n    description=\"AI-powered document knowledge base using Vector Database\",\n    version=\"1.0.0\",\n)\napp.include_router(documents_router)",
         "detail": "src.backend.main",
         "documentation": {}
     }
