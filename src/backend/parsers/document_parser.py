@@ -1,6 +1,6 @@
 from abc import ABC, abstractmethod
-from src.backend.parsers.document_parser import DocumentParser
 
+from backend.schemas.document import DocumentPage
 
 # ABC means Actual Base Class
 # We are defining the rule or contract here. It means which class is taking DocumentParser then they must implement extract_text()
@@ -8,5 +8,5 @@ from src.backend.parsers.document_parser import DocumentParser
 class DocumentParser(ABC):
     
     @abstractmethod
-    def extract_text(self, file_bytes) -> str:
+    def extract_pages(self, file_bytes: bytes) -> list[DocumentPage]:
         pass

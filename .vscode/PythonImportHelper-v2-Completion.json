@@ -107,7 +107,63 @@
         "documentation": {}
     },
     {
+        "label": "parser",
+        "importPath": "html",
+        "description": "html",
+        "isExtraImport": true,
+        "detail": "html",
+        "documentation": {}
+    },
+    {
         "label": "APIRouter",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "Depends",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "File",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "UploadFile",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "APIRouter",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "UploadFile",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "File",
         "importPath": "fastapi",
         "description": "fastapi",
         "isExtraImport": true,
@@ -123,99 +179,163 @@
         "documentation": {}
     },
     {
-        "label": "DocumentCreate",
-        "importPath": "backend.schemas.document",
-        "description": "backend.schemas.document",
+        "label": "get_document_controller",
+        "importPath": "backend.api.dependencies",
+        "description": "backend.api.dependencies",
         "isExtraImport": true,
-        "detail": "backend.schemas.document",
+        "detail": "backend.api.dependencies",
+        "documentation": {}
+    },
+    {
+        "label": "DocumentController",
+        "importPath": "backend.controllers.document_controller",
+        "description": "backend.controllers.document_controller",
+        "isExtraImport": true,
+        "detail": "backend.controllers.document_controller",
+        "documentation": {}
+    },
+    {
+        "label": "DocumentController",
+        "importPath": "backend.controllers.document_controller",
+        "description": "backend.controllers.document_controller",
+        "isExtraImport": true,
+        "detail": "backend.controllers.document_controller",
+        "documentation": {}
+    },
+    {
+        "label": "PdfParser",
+        "importPath": "backend.parsers.pdf_parser",
+        "description": "backend.parsers.pdf_parser",
+        "isExtraImport": true,
+        "detail": "backend.parsers.pdf_parser",
+        "documentation": {}
+    },
+    {
+        "label": "PdfParser",
+        "importPath": "backend.parsers.pdf_parser",
+        "description": "backend.parsers.pdf_parser",
+        "isExtraImport": true,
+        "detail": "backend.parsers.pdf_parser",
+        "documentation": {}
+    },
+    {
+        "label": "DocumentService",
+        "importPath": "backend.services.document_service",
+        "description": "backend.services.document_service",
+        "isExtraImport": true,
+        "detail": "backend.services.document_service",
+        "documentation": {}
+    },
+    {
+        "label": "DocumentService",
+        "importPath": "backend.services.document_service",
+        "description": "backend.services.document_service",
+        "isExtraImport": true,
+        "detail": "backend.services.document_service",
+        "documentation": {}
+    },
+    {
+        "label": "DocumentService",
+        "importPath": "backend.services.document_service",
+        "description": "backend.services.document_service",
+        "isExtraImport": true,
+        "detail": "backend.services.document_service",
+        "documentation": {}
+    },
+    {
+        "label": "DocumentCreate",
+        "importPath": "backend.schemas.document_old",
+        "description": "backend.schemas.document_old",
+        "isExtraImport": true,
+        "detail": "backend.schemas.document_old",
         "documentation": {}
     },
     {
         "label": "SearchRequest",
-        "importPath": "backend.schemas.document",
-        "description": "backend.schemas.document",
+        "importPath": "backend.schemas.document_old",
+        "description": "backend.schemas.document_old",
         "isExtraImport": true,
-        "detail": "backend.schemas.document",
+        "detail": "backend.schemas.document_old",
         "documentation": {}
     },
     {
         "label": "DocumentCreate",
-        "importPath": "backend.schemas.document",
-        "description": "backend.schemas.document",
+        "importPath": "backend.schemas.document_old",
+        "description": "backend.schemas.document_old",
         "isExtraImport": true,
-        "detail": "backend.schemas.document",
+        "detail": "backend.schemas.document_old",
         "documentation": {}
     },
     {
         "label": "SearchRequest",
-        "importPath": "backend.schemas.document",
-        "description": "backend.schemas.document",
+        "importPath": "backend.schemas.document_old",
+        "description": "backend.schemas.document_old",
         "isExtraImport": true,
-        "detail": "backend.schemas.document",
+        "detail": "backend.schemas.document_old",
         "documentation": {}
     },
     {
         "label": "create_demo_documents_collection",
-        "importPath": "backend.services.document_service",
-        "description": "backend.services.document_service",
+        "importPath": "backend.services.document_service_old",
+        "description": "backend.services.document_service_old",
         "isExtraImport": true,
-        "detail": "backend.services.document_service",
+        "detail": "backend.services.document_service_old",
         "documentation": {}
     },
     {
         "label": "create_real_documents_collection",
-        "importPath": "backend.services.document_service",
-        "description": "backend.services.document_service",
+        "importPath": "backend.services.document_service_old",
+        "description": "backend.services.document_service_old",
         "isExtraImport": true,
-        "detail": "backend.services.document_service",
+        "detail": "backend.services.document_service_old",
         "documentation": {}
     },
     {
         "label": "get_health_status",
-        "importPath": "backend.services.document_service",
-        "description": "backend.services.document_service",
+        "importPath": "backend.services.document_service_old",
+        "description": "backend.services.document_service_old",
         "isExtraImport": true,
-        "detail": "backend.services.document_service",
+        "detail": "backend.services.document_service_old",
         "documentation": {}
     },
     {
         "label": "list_collections",
-        "importPath": "backend.services.document_service",
-        "description": "backend.services.document_service",
+        "importPath": "backend.services.document_service_old",
+        "description": "backend.services.document_service_old",
         "isExtraImport": true,
-        "detail": "backend.services.document_service",
+        "detail": "backend.services.document_service_old",
         "documentation": {}
     },
     {
         "label": "search_demo_documents",
-        "importPath": "backend.services.document_service",
-        "description": "backend.services.document_service",
+        "importPath": "backend.services.document_service_old",
+        "description": "backend.services.document_service_old",
         "isExtraImport": true,
-        "detail": "backend.services.document_service",
+        "detail": "backend.services.document_service_old",
         "documentation": {}
     },
     {
         "label": "search_real_documents",
-        "importPath": "backend.services.document_service",
-        "description": "backend.services.document_service",
+        "importPath": "backend.services.document_service_old",
+        "description": "backend.services.document_service_old",
         "isExtraImport": true,
-        "detail": "backend.services.document_service",
+        "detail": "backend.services.document_service_old",
         "documentation": {}
     },
     {
         "label": "seed_demo_documents",
-        "importPath": "backend.services.document_service",
-        "description": "backend.services.document_service",
+        "importPath": "backend.services.document_service_old",
+        "description": "backend.services.document_service_old",
         "isExtraImport": true,
-        "detail": "backend.services.document_service",
+        "detail": "backend.services.document_service_old",
         "documentation": {}
     },
     {
         "label": "seed_real_document",
-        "importPath": "backend.services.document_service",
-        "description": "backend.services.document_service",
+        "importPath": "backend.services.document_service_old",
+        "description": "backend.services.document_service_old",
         "isExtraImport": true,
-        "detail": "backend.services.document_service",
+        "detail": "backend.services.document_service_old",
         "documentation": {}
     },
     {
@@ -232,6 +352,14 @@
         "description": "backend.services.embedding_service",
         "isExtraImport": true,
         "detail": "backend.services.embedding_service",
+        "documentation": {}
+    },
+    {
+        "label": "BaseModel",
+        "importPath": "pydantic",
+        "description": "pydantic",
+        "isExtraImport": true,
+        "detail": "pydantic",
         "documentation": {}
     },
     {
@@ -307,11 +435,60 @@
         "documentation": {}
     },
     {
-        "label": "DocumentParser",
-        "importPath": "src.backend.parsers.document_parser",
-        "description": "src.backend.parsers.document_parser",
+        "label": "DocumentPage",
+        "importPath": "backend.schemas.document",
+        "description": "backend.schemas.document",
         "isExtraImport": true,
-        "detail": "src.backend.parsers.document_parser",
+        "detail": "backend.schemas.document",
+        "documentation": {}
+    },
+    {
+        "label": "DocumentPage",
+        "importPath": "backend.schemas.document",
+        "description": "backend.schemas.document",
+        "isExtraImport": true,
+        "detail": "backend.schemas.document",
+        "documentation": {}
+    },
+    {
+        "label": "DocumentPage",
+        "importPath": "backend.schemas.document",
+        "description": "backend.schemas.document",
+        "isExtraImport": true,
+        "detail": "backend.schemas.document",
+        "documentation": {}
+    },
+    {
+        "label": "pymupdf",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "pymupdf",
+        "description": "pymupdf",
+        "detail": "pymupdf",
+        "documentation": {}
+    },
+    {
+        "label": "DocumentParser",
+        "importPath": "backend.parsers.document_parser",
+        "description": "backend.parsers.document_parser",
+        "isExtraImport": true,
+        "detail": "backend.parsers.document_parser",
+        "documentation": {}
+    },
+    {
+        "label": "DocumentParser",
+        "importPath": "backend.parsers.document_parser",
+        "description": "backend.parsers.document_parser",
+        "isExtraImport": true,
+        "detail": "backend.parsers.document_parser",
+        "documentation": {}
+    },
+    {
+        "label": "parse_document_text",
+        "importPath": "backend.parsers.document_parser",
+        "description": "backend.parsers.document_parser",
+        "isExtraImport": true,
+        "detail": "backend.parsers.document_parser",
         "documentation": {}
     },
     {
@@ -376,14 +553,6 @@
         "description": "uuid",
         "isExtraImport": true,
         "detail": "uuid",
-        "documentation": {}
-    },
-    {
-        "label": "parse_document_text",
-        "importPath": "backend.parsers.document_parser",
-        "description": "backend.parsers.document_parser",
-        "isExtraImport": true,
-        "detail": "backend.parsers.document_parser",
         "documentation": {}
     },
     {
@@ -827,102 +996,129 @@
         "documentation": {}
     },
     {
-        "label": "root",
-        "kind": 2,
+        "label": "router",
+        "kind": 5,
         "importPath": "src.backend.api.routes.documents",
         "description": "src.backend.api.routes.documents",
-        "peekOfCode": "def root():\n    return {\n        \"message\": \"IntelliDocs API is running\"\n    }\n@router.get(\"/embeddings/test\")\ndef test_embedding():\n    text = \"Employees get 12 casual leaves per year.\"\n    vector = create_embedding(text)\n    return {\n        \"text\": text,",
+        "peekOfCode": "router = APIRouter(\n    prefix=\"/documents\",\n    tags=[\"Documents\"]\n)\n# UploadFile represent the upload file\n# File(...) = ... called Ellipsis\n# Here, the `...` inside `File(...)` indicates to FastAPI that this `file` parameter is required; meaning, the client must upload a file.\n@router.post(\"/upload\")\nasync def upload_document(\n    file: UploadFile = File(...),",
         "detail": "src.backend.api.routes.documents",
+        "documentation": {}
+    },
+    {
+        "label": "root",
+        "kind": 2,
+        "importPath": "src.backend.api.routes.documents_old",
+        "description": "src.backend.api.routes.documents_old",
+        "peekOfCode": "def root():\n    return {\n        \"message\": \"IntelliDocs API is running\"\n    }\n@router.get(\"/embeddings/test\")\ndef test_embedding():\n    text = \"Employees get 12 casual leaves per year.\"\n    vector = create_embedding(text)\n    return {\n        \"text\": text,",
+        "detail": "src.backend.api.routes.documents_old",
         "documentation": {}
     },
     {
         "label": "test_embedding",
         "kind": 2,
-        "importPath": "src.backend.api.routes.documents",
-        "description": "src.backend.api.routes.documents",
+        "importPath": "src.backend.api.routes.documents_old",
+        "description": "src.backend.api.routes.documents_old",
         "peekOfCode": "def test_embedding():\n    text = \"Employees get 12 casual leaves per year.\"\n    vector = create_embedding(text)\n    return {\n        \"text\": text,\n        \"vector_size\": len(vector),\n        \"vector_preview\": vector[:5],\n    }\n@router.get(\"/health\")\ndef health_check():",
-        "detail": "src.backend.api.routes.documents",
+        "detail": "src.backend.api.routes.documents_old",
         "documentation": {}
     },
     {
         "label": "health_check",
         "kind": 2,
-        "importPath": "src.backend.api.routes.documents",
-        "description": "src.backend.api.routes.documents",
+        "importPath": "src.backend.api.routes.documents_old",
+        "description": "src.backend.api.routes.documents_old",
         "peekOfCode": "def health_check():\n    return get_health_status()\n@router.get(\"/collections\")\ndef get_collections():\n    return {\n        \"collections\": list_collections()\n    }\n@router.post(\"/collections/documents\")\ndef create_documents_collection():\n    create_demo_documents_collection()",
-        "detail": "src.backend.api.routes.documents",
+        "detail": "src.backend.api.routes.documents_old",
         "documentation": {}
     },
     {
         "label": "get_collections",
         "kind": 2,
-        "importPath": "src.backend.api.routes.documents",
-        "description": "src.backend.api.routes.documents",
+        "importPath": "src.backend.api.routes.documents_old",
+        "description": "src.backend.api.routes.documents_old",
         "peekOfCode": "def get_collections():\n    return {\n        \"collections\": list_collections()\n    }\n@router.post(\"/collections/documents\")\ndef create_documents_collection():\n    create_demo_documents_collection()\n    return {\n        \"message\": \"Documents collection created successfully\"\n    }",
-        "detail": "src.backend.api.routes.documents",
+        "detail": "src.backend.api.routes.documents_old",
         "documentation": {}
     },
     {
         "label": "create_documents_collection",
         "kind": 2,
-        "importPath": "src.backend.api.routes.documents",
-        "description": "src.backend.api.routes.documents",
+        "importPath": "src.backend.api.routes.documents_old",
+        "description": "src.backend.api.routes.documents_old",
         "peekOfCode": "def create_documents_collection():\n    create_demo_documents_collection()\n    return {\n        \"message\": \"Documents collection created successfully\"\n    }\n@router.post(\"/documents/seed\")\ndef seed_documents():\n    seed_demo_documents()\n    return {\n        \"message\": \"Documents inserted successfully\"",
-        "detail": "src.backend.api.routes.documents",
+        "detail": "src.backend.api.routes.documents_old",
         "documentation": {}
     },
     {
         "label": "seed_documents",
         "kind": 2,
-        "importPath": "src.backend.api.routes.documents",
-        "description": "src.backend.api.routes.documents",
+        "importPath": "src.backend.api.routes.documents_old",
+        "description": "src.backend.api.routes.documents_old",
         "peekOfCode": "def seed_documents():\n    seed_demo_documents()\n    return {\n        \"message\": \"Documents inserted successfully\"\n    }\n@router.get(\"/documents/search\")\ndef search_documents():\n    return {\n        \"results\": search_demo_documents()\n    }",
-        "detail": "src.backend.api.routes.documents",
+        "detail": "src.backend.api.routes.documents_old",
         "documentation": {}
     },
     {
         "label": "search_documents",
         "kind": 2,
-        "importPath": "src.backend.api.routes.documents",
-        "description": "src.backend.api.routes.documents",
+        "importPath": "src.backend.api.routes.documents_old",
+        "description": "src.backend.api.routes.documents_old",
         "peekOfCode": "def search_documents():\n    return {\n        \"results\": search_demo_documents()\n    }\n# ! Store Real Embeddings in Qdrant\n@router.post(\"/collections/documents-v2\")\ndef create_documents_v2_collection():\n    create_real_documents_collection()\n    return {\n        \"message\": \"Documents_v2 collection created successfully\"",
-        "detail": "src.backend.api.routes.documents",
+        "detail": "src.backend.api.routes.documents_old",
         "documentation": {}
     },
     {
         "label": "create_documents_v2_collection",
         "kind": 2,
-        "importPath": "src.backend.api.routes.documents",
-        "description": "src.backend.api.routes.documents",
+        "importPath": "src.backend.api.routes.documents_old",
+        "description": "src.backend.api.routes.documents_old",
         "peekOfCode": "def create_documents_v2_collection():\n    create_real_documents_collection()\n    return {\n        \"message\": \"Documents_v2 collection created successfully\"\n    }\n@router.post(\"/documents-v2/seed\")\ndef seed_real_documents(document: DocumentCreate):\n    return seed_real_document(document)\n@router.post(\"/documents-v2/search\")\ndef search_documents_v2(request: SearchRequest):",
-        "detail": "src.backend.api.routes.documents",
+        "detail": "src.backend.api.routes.documents_old",
         "documentation": {}
     },
     {
         "label": "seed_real_documents",
         "kind": 2,
-        "importPath": "src.backend.api.routes.documents",
-        "description": "src.backend.api.routes.documents",
+        "importPath": "src.backend.api.routes.documents_old",
+        "description": "src.backend.api.routes.documents_old",
         "peekOfCode": "def seed_real_documents(document: DocumentCreate):\n    return seed_real_document(document)\n@router.post(\"/documents-v2/search\")\ndef search_documents_v2(request: SearchRequest):\n    return search_real_documents(request)",
-        "detail": "src.backend.api.routes.documents",
+        "detail": "src.backend.api.routes.documents_old",
         "documentation": {}
     },
     {
         "label": "search_documents_v2",
         "kind": 2,
-        "importPath": "src.backend.api.routes.documents",
-        "description": "src.backend.api.routes.documents",
+        "importPath": "src.backend.api.routes.documents_old",
+        "description": "src.backend.api.routes.documents_old",
         "peekOfCode": "def search_documents_v2(request: SearchRequest):\n    return search_real_documents(request)",
-        "detail": "src.backend.api.routes.documents",
+        "detail": "src.backend.api.routes.documents_old",
         "documentation": {}
     },
     {
         "label": "router",
         "kind": 5,
-        "importPath": "src.backend.api.routes.documents",
-        "description": "src.backend.api.routes.documents",
+        "importPath": "src.backend.api.routes.documents_old",
+        "description": "src.backend.api.routes.documents_old",
         "peekOfCode": "router = APIRouter()\n@router.get(\"/\")\ndef root():\n    return {\n        \"message\": \"IntelliDocs API is running\"\n    }\n@router.get(\"/embeddings/test\")\ndef test_embedding():\n    text = \"Employees get 12 casual leaves per year.\"\n    vector = create_embedding(text)",
-        "detail": "src.backend.api.routes.documents",
+        "detail": "src.backend.api.routes.documents_old",
+        "documentation": {}
+    },
+    {
+        "label": "get_document_controller",
+        "kind": 2,
+        "importPath": "src.backend.api.dependencies",
+        "description": "src.backend.api.dependencies",
+        "peekOfCode": "def get_document_controller() -> DocumentController:\n    parser = PdfParser()\n    service = DocumentService(\n        parser=parser\n    )\n    return DocumentController(\n        document_service=service\n    )",
+        "detail": "src.backend.api.dependencies",
+        "documentation": {}
+    },
+    {
+        "label": "DocumentController",
+        "kind": 6,
+        "importPath": "src.backend.controllers.document_controller",
+        "description": "src.backend.controllers.document_controller",
+        "peekOfCode": "class DocumentController:\n    def __init__(self, document_service: DocumentService):\n        self.document_service = document_service\n    async def upload_pdf(self, file: UploadFile):\n        file_byte = await file.read()\n        pages = self.document_service.extract_pages(file_byte)\n        return {\n            \"filename\": file.filename,\n            \"content_type\": file.content_type,\n            \"total_pages\": len(pages),",
+        "detail": "src.backend.controllers.document_controller",
         "documentation": {}
     },
     {
@@ -957,16 +1153,16 @@
         "kind": 6,
         "importPath": "src.backend.parsers.document_parser",
         "description": "src.backend.parsers.document_parser",
-        "peekOfCode": "class DocumentParser(ABC):\n    @abstractmethod\n    def extract_text(self, file_bytes) -> str:\n        pass",
+        "peekOfCode": "class DocumentParser(ABC):\n    @abstractmethod\n    def extract_pages(self, file_bytes: bytes) -> list[DocumentPage]:\n        pass",
         "detail": "src.backend.parsers.document_parser",
         "documentation": {}
     },
     {
-        "label": "parse_pdf_content",
-        "kind": 2,
+        "label": "PdfParser",
+        "kind": 6,
         "importPath": "src.backend.parsers.pdf_parser",
         "description": "src.backend.parsers.pdf_parser",
-        "peekOfCode": "def parse_pdf_content(file_content: bytes) -> str:\n    raise NotImplementedError(\"PDF parsing is not implemented yet.\")",
+        "peekOfCode": "class PdfParser(DocumentParser):\n    def extract_pages(self, file_bytes: bytes) -> list[DocumentPage]:\n        # Here, I am opening the PDF from memory bytes instead of providing a disk path.\n        # Concept - PDF bytes -> PyMuPDF -> document object\n        document = pymupdf.open(\n            stream=file_bytes,\n            filetype=\"pdf\"\n        )\n        pages: list[DocumentPage] = []\n        for index,page in enumerate(document, start=1):",
         "detail": "src.backend.parsers.pdf_parser",
         "documentation": {}
     },
@@ -1043,93 +1239,111 @@
         "documentation": {}
     },
     {
-        "label": "DocumentCreate",
+        "label": "DocumentPage",
         "kind": 6,
         "importPath": "src.backend.schemas.document",
         "description": "src.backend.schemas.document",
-        "peekOfCode": "class DocumentCreate(BaseModel):\n    text: str\n    source: str | None = None\n    category: str | None = None\n# Here SearchRequest is the Schema or Structure of request body.\nclass SearchRequest(BaseModel):\n    query: str = Field(min_length=2)\n    limit: int = Field(default=3, ge=1, le=10)\n    category: str | None = None",
+        "peekOfCode": "class DocumentPage(BaseModel):\n    page_number: int\n    text: str",
         "detail": "src.backend.schemas.document",
+        "documentation": {}
+    },
+    {
+        "label": "DocumentCreate",
+        "kind": 6,
+        "importPath": "src.backend.schemas.document_old",
+        "description": "src.backend.schemas.document_old",
+        "peekOfCode": "class DocumentCreate(BaseModel):\n    text: str\n    source: str | None = None\n    category: str | None = None\n# Here SearchRequest is the Schema or Structure of request body.\nclass SearchRequest(BaseModel):\n    query: str = Field(min_length=2)\n    limit: int = Field(default=3, ge=1, le=10)\n    category: str | None = None",
+        "detail": "src.backend.schemas.document_old",
         "documentation": {}
     },
     {
         "label": "SearchRequest",
         "kind": 6,
-        "importPath": "src.backend.schemas.document",
-        "description": "src.backend.schemas.document",
+        "importPath": "src.backend.schemas.document_old",
+        "description": "src.backend.schemas.document_old",
         "peekOfCode": "class SearchRequest(BaseModel):\n    query: str = Field(min_length=2)\n    limit: int = Field(default=3, ge=1, le=10)\n    category: str | None = None",
-        "detail": "src.backend.schemas.document",
+        "detail": "src.backend.schemas.document_old",
+        "documentation": {}
+    },
+    {
+        "label": "DocumentService",
+        "kind": 6,
+        "importPath": "src.backend.services.document_service",
+        "description": "src.backend.services.document_service",
+        "peekOfCode": "class DocumentService:\n    def __init__(self, parser: DocumentParser):\n        self.parser = parser\n    def extract_pages(self, file_bytes: bytes) -> list[DocumentPage]:\n        return self.parser.extract_pages(file_bytes)",
+        "detail": "src.backend.services.document_service",
         "documentation": {}
     },
     {
         "label": "get_health_status",
         "kind": 2,
-        "importPath": "src.backend.services.document_service",
-        "description": "src.backend.services.document_service",
+        "importPath": "src.backend.services.document_service_old",
+        "description": "src.backend.services.document_service_old",
         "peekOfCode": "def get_health_status() -> dict:\n    return {\n        \"status\": \"healthy\",\n        \"qdrant\": \"connected\",\n        \"collections\": get_collections_count(),\n    }\ndef list_collections() -> list[str]:\n    return get_collection_names()\ndef create_demo_documents_collection() -> None:\n    create_demo_collection()",
-        "detail": "src.backend.services.document_service",
+        "detail": "src.backend.services.document_service_old",
         "documentation": {}
     },
     {
         "label": "list_collections",
         "kind": 2,
-        "importPath": "src.backend.services.document_service",
-        "description": "src.backend.services.document_service",
+        "importPath": "src.backend.services.document_service_old",
+        "description": "src.backend.services.document_service_old",
         "peekOfCode": "def list_collections() -> list[str]:\n    return get_collection_names()\ndef create_demo_documents_collection() -> None:\n    create_demo_collection()\ndef seed_demo_documents() -> None:\n    seed_demo_points()\ndef search_demo_documents() -> list[dict]:\n    return search_demo_points()\ndef create_real_documents_collection() -> None:\n    create_documents_collection()",
-        "detail": "src.backend.services.document_service",
+        "detail": "src.backend.services.document_service_old",
         "documentation": {}
     },
     {
         "label": "create_demo_documents_collection",
         "kind": 2,
-        "importPath": "src.backend.services.document_service",
-        "description": "src.backend.services.document_service",
+        "importPath": "src.backend.services.document_service_old",
+        "description": "src.backend.services.document_service_old",
         "peekOfCode": "def create_demo_documents_collection() -> None:\n    create_demo_collection()\ndef seed_demo_documents() -> None:\n    seed_demo_points()\ndef search_demo_documents() -> list[dict]:\n    return search_demo_points()\ndef create_real_documents_collection() -> None:\n    create_documents_collection()\ndef seed_real_document(document: DocumentCreate) -> dict:\n    document_id = str(uuid4())",
-        "detail": "src.backend.services.document_service",
+        "detail": "src.backend.services.document_service_old",
         "documentation": {}
     },
     {
         "label": "seed_demo_documents",
         "kind": 2,
-        "importPath": "src.backend.services.document_service",
-        "description": "src.backend.services.document_service",
+        "importPath": "src.backend.services.document_service_old",
+        "description": "src.backend.services.document_service_old",
         "peekOfCode": "def seed_demo_documents() -> None:\n    seed_demo_points()\ndef search_demo_documents() -> list[dict]:\n    return search_demo_points()\ndef create_real_documents_collection() -> None:\n    create_documents_collection()\ndef seed_real_document(document: DocumentCreate) -> dict:\n    document_id = str(uuid4())\n    text = parse_document_text(document.text)\n    vector = create_embedding(text)",
-        "detail": "src.backend.services.document_service",
+        "detail": "src.backend.services.document_service_old",
         "documentation": {}
     },
     {
         "label": "search_demo_documents",
         "kind": 2,
-        "importPath": "src.backend.services.document_service",
-        "description": "src.backend.services.document_service",
+        "importPath": "src.backend.services.document_service_old",
+        "description": "src.backend.services.document_service_old",
         "peekOfCode": "def search_demo_documents() -> list[dict]:\n    return search_demo_points()\ndef create_real_documents_collection() -> None:\n    create_documents_collection()\ndef seed_real_document(document: DocumentCreate) -> dict:\n    document_id = str(uuid4())\n    text = parse_document_text(document.text)\n    vector = create_embedding(text)\n    upsert_document(\n        document_id=document_id,",
-        "detail": "src.backend.services.document_service",
+        "detail": "src.backend.services.document_service_old",
         "documentation": {}
     },
     {
         "label": "create_real_documents_collection",
         "kind": 2,
-        "importPath": "src.backend.services.document_service",
-        "description": "src.backend.services.document_service",
+        "importPath": "src.backend.services.document_service_old",
+        "description": "src.backend.services.document_service_old",
         "peekOfCode": "def create_real_documents_collection() -> None:\n    create_documents_collection()\ndef seed_real_document(document: DocumentCreate) -> dict:\n    document_id = str(uuid4())\n    text = parse_document_text(document.text)\n    vector = create_embedding(text)\n    upsert_document(\n        document_id=document_id,\n        vector=vector,\n        text=text,",
-        "detail": "src.backend.services.document_service",
+        "detail": "src.backend.services.document_service_old",
         "documentation": {}
     },
     {
         "label": "seed_real_document",
         "kind": 2,
-        "importPath": "src.backend.services.document_service",
-        "description": "src.backend.services.document_service",
+        "importPath": "src.backend.services.document_service_old",
+        "description": "src.backend.services.document_service_old",
         "peekOfCode": "def seed_real_document(document: DocumentCreate) -> dict:\n    document_id = str(uuid4())\n    text = parse_document_text(document.text)\n    vector = create_embedding(text)\n    upsert_document(\n        document_id=document_id,\n        vector=vector,\n        text=text,\n        source=document.source,\n        category=document.category,",
-        "detail": "src.backend.services.document_service",
+        "detail": "src.backend.services.document_service_old",
         "documentation": {}
     },
     {
         "label": "search_real_documents",
         "kind": 2,
-        "importPath": "src.backend.services.document_service",
-        "description": "src.backend.services.document_service",
+        "importPath": "src.backend.services.document_service_old",
+        "description": "src.backend.services.document_service_old",
         "peekOfCode": "def search_real_documents(request: SearchRequest) -> dict:\n    query_vector = create_embedding(request.query)\n    results = search_documents(\n        query_vector=query_vector,\n        limit=request.limit,\n        category=request.category,\n    )\n    return {\n        \"query\": request.query,\n        \"category\": request.category,",
-        "detail": "src.backend.services.document_service",
+        "detail": "src.backend.services.document_service_old",
         "documentation": {}
     },
     {
