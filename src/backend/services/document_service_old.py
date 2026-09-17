@@ -1,7 +1,7 @@
 from uuid import uuid4
 
 from backend.parsers.document_parser import parse_document_text
-from backend.repositories.vector_repository import (
+from backend.repositories.vector_repository_old import (
     create_demo_collection,
     create_documents_collection,
     get_collection_names,
