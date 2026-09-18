@@ -1,13 +1,9 @@
 {
-<<<<<<< HEAD
-    "jira-plugin.workingProject": ""
-}
-=======
     "jira-plugin.workingProject": "",
-    "python.defaultInterpreterPath": "${workspaceFolder}\\.venv\\Scripts\\python.exe",
+    "python.defaultInterpreterPath": "${workspaceFolder}\\backend\\.venv\\Scripts\\python.exe",
     "python.analysis.autoImportCompletions": true,
     "python.analysis.extraPaths": [
-        "${workspaceFolder}\\src"
+        "${workspaceFolder}\\backend\\src"
     ],
     "editor.inlineSuggest.enabled": true,
     "editor.quickSuggestions": {
@@ -16,4 +12,3 @@
         "strings": "on"
     }
 }
->>>>>>> b316aae1cb7e3745aa43965a3775eec3a3984136

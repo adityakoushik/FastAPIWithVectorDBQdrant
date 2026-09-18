@@ -10,7 +10,7 @@ Terminal 1, from the `backend` directory:
 
 ```sh
 uv sync
-uv run uvicorn backend.main:app --reload --host 127.0.0.1 --port 8000
+uv run fastapi dev --host 127.0.0.1 --port 8000
 ```
 
 Terminal 2, from `frontend`:

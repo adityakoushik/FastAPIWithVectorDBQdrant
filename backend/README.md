@@ -14,7 +14,7 @@
 
 `backend` folder থেকে `uv sync` চালাও। `.env.example` local `.env`-এর নমুনা;
 `.env` Git-এ যাবে না। `INTC_` দিয়ে নতুন setting-এর নাম শুরু হয়।
-`.env` বদলালে server restart করো। তারপর `uv run uvicorn backend.main:app --reload`।
+`.env` বদলালে server restart করো। তারপর `uv run fastapi dev`।
 বর্তমান API-তে `POST /documents/upload` ও `POST /search` আছে; নিচের demo
 endpoint instructions আগের lesson-এর reference। Startup-এ embedding model load
 হয়, তাই প্রথমবার model download লাগতে পারে। প্রতিটি worker নিজস্ব model রাখে।
@@ -33,7 +33,7 @@ Install [Git](https://git-scm.com/downloads), [uv](https://docs.astral.sh/uv/get
 
 ```sh
 git clone https://github.com/adityakoushik/FastAPIWithVectorDBQdrant.git
-cd FastAPIWithVectorDBQdrant
+cd FastAPIWithVectorDBQdrant/backend
 uv sync
 ```
 
@@ -43,10 +43,10 @@ Start Qdrant in one terminal:
 docker run --name fastapi-qdrant -p 6333:6333 -v fastapi-qdrant-data:/qdrant/storage qdrant/qdrant
 ```
 
-Then start the API in another terminal from the repository folder:
+Then start the API in another terminal from the backend folder:
 
 ```sh
-uv run uvicorn backend.main:app --reload
+uv run fastapi dev
 ```
 
 Open <http://127.0.0.1:8000/docs> to try the endpoints in Swagger UI. Run them in this order:
@@ -58,7 +58,7 @@ Open <http://127.0.0.1:8000/docs> to try the endpoints in Swagger UI. Run them i
 
 The Qdrant data lives in a Docker volume on your computer, so the collection and points are not included in Git. To start the same container again after stopping it, use `docker start fastapi-qdrant`. To stop it, use `docker stop fastapi-qdrant`.
 
-After the first clone, get new commits from the repository folder with `git pull` and update dependencies with `uv sync`.
+After the first clone, get new commits from the repository root with `git pull`, then update dependencies from `backend` with `uv sync`.
 
 ## React document workspace
 
@@ -80,7 +80,7 @@ embedding-based semantic chunking.
 
 Run the chunking, ingestion, repository, and PDF upload tests with `uv run python -m unittest discover -s tests -v`.
 
-The React frontend lives in [frontend](../frontend/README.md). From this directory, run `uv run uvicorn backend.main:app --reload`. In a second terminal, run `cd ../frontend`, `npm ci`, and `npm run dev`, then open http://localhost:5173. See the frontend README for architecture, tests, environment variables, and production hosting.
+The React frontend lives in [frontend](../frontend/README.md). From this directory, run `uv run fastapi dev`. In a second terminal, run `cd ../frontend`, `npm ci`, and `npm run dev`, then open http://localhost:5173. See the frontend README for architecture, tests, environment variables, and production hosting.
 
 
 ## Batch embedding and vector ingestion
