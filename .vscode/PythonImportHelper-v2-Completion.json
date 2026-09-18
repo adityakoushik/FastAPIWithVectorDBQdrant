@@ -1,0 +1,1376 @@
+[
+    {
+        "label": "runpy",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "runpy",
+        "description": "runpy",
+        "detail": "runpy",
+        "documentation": {}
+    },
+    {
+        "label": "annotations",
+        "importPath": "__future__",
+        "description": "__future__",
+        "isExtraImport": true,
+        "detail": "__future__",
+        "documentation": {}
+    },
+    {
+        "label": "os",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "os",
+        "description": "os",
+        "detail": "os",
+        "documentation": {}
+    },
+    {
+        "label": "site",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "site",
+        "description": "site",
+        "detail": "site",
+        "documentation": {}
+    },
+    {
+        "label": "sys",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "sys",
+        "description": "sys",
+        "detail": "sys",
+        "documentation": {}
+    },
+    {
+        "label": "argparse",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "argparse",
+        "description": "argparse",
+        "detail": "argparse",
+        "documentation": {}
+    },
+    {
+        "label": "glob",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "glob",
+        "description": "glob",
+        "detail": "glob",
+        "documentation": {}
+    },
+    {
+        "label": "shutil",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "shutil",
+        "description": "shutil",
+        "detail": "shutil",
+        "documentation": {}
+    },
+    {
+        "label": "sysconfig",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "sysconfig",
+        "description": "sysconfig",
+        "detail": "sysconfig",
+        "documentation": {}
+    },
+    {
+        "label": "tempfile",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "tempfile",
+        "description": "tempfile",
+        "detail": "tempfile",
+        "documentation": {}
+    },
+    {
+        "label": "winreg",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "winreg",
+        "description": "winreg",
+        "detail": "winreg",
+        "documentation": {}
+    },
+    {
+        "label": "subprocess",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "subprocess",
+        "description": "subprocess",
+        "detail": "subprocess",
+        "documentation": {}
+    },
+    {
+        "label": "parser",
+        "importPath": "html",
+        "description": "html",
+        "isExtraImport": true,
+        "detail": "html",
+        "documentation": {}
+    },
+    {
+        "label": "APIRouter",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "Depends",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "File",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "UploadFile",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "APIRouter",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "UploadFile",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "File",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "FastAPI",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "get_document_controller",
+        "importPath": "backend.api.dependencies",
+        "description": "backend.api.dependencies",
+        "isExtraImport": true,
+        "detail": "backend.api.dependencies",
+        "documentation": {}
+    },
+    {
+        "label": "DocumentController",
+        "importPath": "backend.controllers.document_controller",
+        "description": "backend.controllers.document_controller",
+        "isExtraImport": true,
+        "detail": "backend.controllers.document_controller",
+        "documentation": {}
+    },
+    {
+        "label": "DocumentController",
+        "importPath": "backend.controllers.document_controller",
+        "description": "backend.controllers.document_controller",
+        "isExtraImport": true,
+        "detail": "backend.controllers.document_controller",
+        "documentation": {}
+    },
+    {
+        "label": "PdfParser",
+        "importPath": "backend.parsers.pdf_parser",
+        "description": "backend.parsers.pdf_parser",
+        "isExtraImport": true,
+        "detail": "backend.parsers.pdf_parser",
+        "documentation": {}
+    },
+    {
+        "label": "PdfParser",
+        "importPath": "backend.parsers.pdf_parser",
+        "description": "backend.parsers.pdf_parser",
+        "isExtraImport": true,
+        "detail": "backend.parsers.pdf_parser",
+        "documentation": {}
+    },
+    {
+        "label": "DocumentService",
+        "importPath": "backend.services.document_service",
+        "description": "backend.services.document_service",
+        "isExtraImport": true,
+        "detail": "backend.services.document_service",
+        "documentation": {}
+    },
+    {
+        "label": "DocumentService",
+        "importPath": "backend.services.document_service",
+        "description": "backend.services.document_service",
+        "isExtraImport": true,
+        "detail": "backend.services.document_service",
+        "documentation": {}
+    },
+    {
+        "label": "DocumentService",
+        "importPath": "backend.services.document_service",
+        "description": "backend.services.document_service",
+        "isExtraImport": true,
+        "detail": "backend.services.document_service",
+        "documentation": {}
+    },
+    {
+        "label": "DocumentCreate",
+        "importPath": "backend.schemas.document_old",
+        "description": "backend.schemas.document_old",
+        "isExtraImport": true,
+        "detail": "backend.schemas.document_old",
+        "documentation": {}
+    },
+    {
+        "label": "SearchRequest",
+        "importPath": "backend.schemas.document_old",
+        "description": "backend.schemas.document_old",
+        "isExtraImport": true,
+        "detail": "backend.schemas.document_old",
+        "documentation": {}
+    },
+    {
+        "label": "DocumentCreate",
+        "importPath": "backend.schemas.document_old",
+        "description": "backend.schemas.document_old",
+        "isExtraImport": true,
+        "detail": "backend.schemas.document_old",
+        "documentation": {}
+    },
+    {
+        "label": "SearchRequest",
+        "importPath": "backend.schemas.document_old",
+        "description": "backend.schemas.document_old",
+        "isExtraImport": true,
+        "detail": "backend.schemas.document_old",
+        "documentation": {}
+    },
+    {
+        "label": "create_demo_documents_collection",
+        "importPath": "backend.services.document_service_old",
+        "description": "backend.services.document_service_old",
+        "isExtraImport": true,
+        "detail": "backend.services.document_service_old",
+        "documentation": {}
+    },
+    {
+        "label": "create_real_documents_collection",
+        "importPath": "backend.services.document_service_old",
+        "description": "backend.services.document_service_old",
+        "isExtraImport": true,
+        "detail": "backend.services.document_service_old",
+        "documentation": {}
+    },
+    {
+        "label": "get_health_status",
+        "importPath": "backend.services.document_service_old",
+        "description": "backend.services.document_service_old",
+        "isExtraImport": true,
+        "detail": "backend.services.document_service_old",
+        "documentation": {}
+    },
+    {
+        "label": "list_collections",
+        "importPath": "backend.services.document_service_old",
+        "description": "backend.services.document_service_old",
+        "isExtraImport": true,
+        "detail": "backend.services.document_service_old",
+        "documentation": {}
+    },
+    {
+        "label": "search_demo_documents",
+        "importPath": "backend.services.document_service_old",
+        "description": "backend.services.document_service_old",
+        "isExtraImport": true,
+        "detail": "backend.services.document_service_old",
+        "documentation": {}
+    },
+    {
+        "label": "search_real_documents",
+        "importPath": "backend.services.document_service_old",
+        "description": "backend.services.document_service_old",
+        "isExtraImport": true,
+        "detail": "backend.services.document_service_old",
+        "documentation": {}
+    },
+    {
+        "label": "seed_demo_documents",
+        "importPath": "backend.services.document_service_old",
+        "description": "backend.services.document_service_old",
+        "isExtraImport": true,
+        "detail": "backend.services.document_service_old",
+        "documentation": {}
+    },
+    {
+        "label": "seed_real_document",
+        "importPath": "backend.services.document_service_old",
+        "description": "backend.services.document_service_old",
+        "isExtraImport": true,
+        "detail": "backend.services.document_service_old",
+        "documentation": {}
+    },
+    {
+        "label": "create_embedding",
+        "importPath": "backend.services.embedding_service",
+        "description": "backend.services.embedding_service",
+        "isExtraImport": true,
+        "detail": "backend.services.embedding_service",
+        "documentation": {}
+    },
+    {
+        "label": "create_embedding",
+        "importPath": "backend.services.embedding_service",
+        "description": "backend.services.embedding_service",
+        "isExtraImport": true,
+        "detail": "backend.services.embedding_service",
+        "documentation": {}
+    },
+    {
+        "label": "BaseModel",
+        "importPath": "pydantic",
+        "description": "pydantic",
+        "isExtraImport": true,
+        "detail": "pydantic",
+        "documentation": {}
+    },
+    {
+        "label": "BaseModel",
+        "importPath": "pydantic",
+        "description": "pydantic",
+        "isExtraImport": true,
+        "detail": "pydantic",
+        "documentation": {}
+    },
+    {
+        "label": "BaseModel",
+        "importPath": "pydantic",
+        "description": "pydantic",
+        "isExtraImport": true,
+        "detail": "pydantic",
+        "documentation": {}
+    },
+    {
+        "label": "Field",
+        "importPath": "pydantic",
+        "description": "pydantic",
+        "isExtraImport": true,
+        "detail": "pydantic",
+        "documentation": {}
+    },
+    {
+        "label": "QdrantClient",
+        "importPath": "qdrant_client",
+        "description": "qdrant_client",
+        "isExtraImport": true,
+        "detail": "qdrant_client",
+        "documentation": {}
+    },
+    {
+        "label": "settings",
+        "importPath": "backend.core.config",
+        "description": "backend.core.config",
+        "isExtraImport": true,
+        "detail": "backend.core.config",
+        "documentation": {}
+    },
+    {
+        "label": "settings",
+        "importPath": "backend.core.config",
+        "description": "backend.core.config",
+        "isExtraImport": true,
+        "detail": "backend.core.config",
+        "documentation": {}
+    },
+    {
+        "label": "settings",
+        "importPath": "backend.core.config",
+        "description": "backend.core.config",
+        "isExtraImport": true,
+        "detail": "backend.core.config",
+        "documentation": {}
+    },
+    {
+        "label": "ABC",
+        "importPath": "abc",
+        "description": "abc",
+        "isExtraImport": true,
+        "detail": "abc",
+        "documentation": {}
+    },
+    {
+        "label": "abstractmethod",
+        "importPath": "abc",
+        "description": "abc",
+        "isExtraImport": true,
+        "detail": "abc",
+        "documentation": {}
+    },
+    {
+        "label": "DocumentPage",
+        "importPath": "backend.schemas.document",
+        "description": "backend.schemas.document",
+        "isExtraImport": true,
+        "detail": "backend.schemas.document",
+        "documentation": {}
+    },
+    {
+        "label": "DocumentPage",
+        "importPath": "backend.schemas.document",
+        "description": "backend.schemas.document",
+        "isExtraImport": true,
+        "detail": "backend.schemas.document",
+        "documentation": {}
+    },
+    {
+        "label": "DocumentPage",
+        "importPath": "backend.schemas.document",
+        "description": "backend.schemas.document",
+        "isExtraImport": true,
+        "detail": "backend.schemas.document",
+        "documentation": {}
+    },
+    {
+        "label": "pymupdf",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "pymupdf",
+        "description": "pymupdf",
+        "detail": "pymupdf",
+        "documentation": {}
+    },
+    {
+        "label": "DocumentParser",
+        "importPath": "backend.parsers.document_parser",
+        "description": "backend.parsers.document_parser",
+        "isExtraImport": true,
+        "detail": "backend.parsers.document_parser",
+        "documentation": {}
+    },
+    {
+        "label": "DocumentParser",
+        "importPath": "backend.parsers.document_parser",
+        "description": "backend.parsers.document_parser",
+        "isExtraImport": true,
+        "detail": "backend.parsers.document_parser",
+        "documentation": {}
+    },
+    {
+        "label": "parse_document_text",
+        "importPath": "backend.parsers.document_parser",
+        "description": "backend.parsers.document_parser",
+        "isExtraImport": true,
+        "detail": "backend.parsers.document_parser",
+        "documentation": {}
+    },
+    {
+        "label": "Distance",
+        "importPath": "qdrant_client.models",
+        "description": "qdrant_client.models",
+        "isExtraImport": true,
+        "detail": "qdrant_client.models",
+        "documentation": {}
+    },
+    {
+        "label": "FieldCondition",
+        "importPath": "qdrant_client.models",
+        "description": "qdrant_client.models",
+        "isExtraImport": true,
+        "detail": "qdrant_client.models",
+        "documentation": {}
+    },
+    {
+        "label": "Filter",
+        "importPath": "qdrant_client.models",
+        "description": "qdrant_client.models",
+        "isExtraImport": true,
+        "detail": "qdrant_client.models",
+        "documentation": {}
+    },
+    {
+        "label": "MatchValue",
+        "importPath": "qdrant_client.models",
+        "description": "qdrant_client.models",
+        "isExtraImport": true,
+        "detail": "qdrant_client.models",
+        "documentation": {}
+    },
+    {
+        "label": "PointStruct",
+        "importPath": "qdrant_client.models",
+        "description": "qdrant_client.models",
+        "isExtraImport": true,
+        "detail": "qdrant_client.models",
+        "documentation": {}
+    },
+    {
+        "label": "VectorParams",
+        "importPath": "qdrant_client.models",
+        "description": "qdrant_client.models",
+        "isExtraImport": true,
+        "detail": "qdrant_client.models",
+        "documentation": {}
+    },
+    {
+        "label": "qdrant_client",
+        "importPath": "backend.db.qdrant",
+        "description": "backend.db.qdrant",
+        "isExtraImport": true,
+        "detail": "backend.db.qdrant",
+        "documentation": {}
+    },
+    {
+        "label": "uuid4",
+        "importPath": "uuid",
+        "description": "uuid",
+        "isExtraImport": true,
+        "detail": "uuid",
+        "documentation": {}
+    },
+    {
+        "label": "create_demo_collection",
+        "importPath": "backend.repositories.vector_repository",
+        "description": "backend.repositories.vector_repository",
+        "isExtraImport": true,
+        "detail": "backend.repositories.vector_repository",
+        "documentation": {}
+    },
+    {
+        "label": "create_documents_collection",
+        "importPath": "backend.repositories.vector_repository",
+        "description": "backend.repositories.vector_repository",
+        "isExtraImport": true,
+        "detail": "backend.repositories.vector_repository",
+        "documentation": {}
+    },
+    {
+        "label": "get_collection_names",
+        "importPath": "backend.repositories.vector_repository",
+        "description": "backend.repositories.vector_repository",
+        "isExtraImport": true,
+        "detail": "backend.repositories.vector_repository",
+        "documentation": {}
+    },
+    {
+        "label": "get_collections_count",
+        "importPath": "backend.repositories.vector_repository",
+        "description": "backend.repositories.vector_repository",
+        "isExtraImport": true,
+        "detail": "backend.repositories.vector_repository",
+        "documentation": {}
+    },
+    {
+        "label": "search_demo_points",
+        "importPath": "backend.repositories.vector_repository",
+        "description": "backend.repositories.vector_repository",
+        "isExtraImport": true,
+        "detail": "backend.repositories.vector_repository",
+        "documentation": {}
+    },
+    {
+        "label": "search_documents",
+        "importPath": "backend.repositories.vector_repository",
+        "description": "backend.repositories.vector_repository",
+        "isExtraImport": true,
+        "detail": "backend.repositories.vector_repository",
+        "documentation": {}
+    },
+    {
+        "label": "seed_demo_points",
+        "importPath": "backend.repositories.vector_repository",
+        "description": "backend.repositories.vector_repository",
+        "isExtraImport": true,
+        "detail": "backend.repositories.vector_repository",
+        "documentation": {}
+    },
+    {
+        "label": "upsert_document",
+        "importPath": "backend.repositories.vector_repository",
+        "description": "backend.repositories.vector_repository",
+        "isExtraImport": true,
+        "detail": "backend.repositories.vector_repository",
+        "documentation": {}
+    },
+    {
+        "label": "SentenceTransformer",
+        "importPath": "sentence_transformers",
+        "description": "sentence_transformers",
+        "isExtraImport": true,
+        "detail": "sentence_transformers",
+        "documentation": {}
+    },
+    {
+        "label": "router",
+        "importPath": "backend.api.routes.documents",
+        "description": "backend.api.routes.documents",
+        "isExtraImport": true,
+        "detail": "backend.api.routes.documents",
+        "documentation": {}
+    },
+    {
+        "label": "bin_dir",
+        "kind": 5,
+        "importPath": ".venv.Scripts.activate_this",
+        "description": ".venv.Scripts.activate_this",
+        "peekOfCode": "bin_dir = os.path.dirname(abs_file)\nbase = bin_dir[: -len(\"Scripts\") - 1]  # strip away the bin part from the __file__, plus the path separator\n# prepend bin to PATH (this file is inside the bin directory)\nos.environ[\"PATH\"] = os.pathsep.join([bin_dir, *os.environ.get(\"PATH\", \"\").split(os.pathsep)])\nos.environ[\"VIRTUAL_ENV\"] = base  # virtual env is right above bin directory\nos.environ[\"VIRTUAL_ENV_PROMPT\"] = \"backend\" or os.path.basename(base)  # noqa: SIM222\n# add the virtual environments libraries to the host python import mechanism\nprev_length = len(sys.path)\nfor lib in \"..\\\\Lib\\\\site-packages\".split(os.pathsep):\n    path = os.path.realpath(os.path.join(bin_dir, lib))",
+        "detail": ".venv.Scripts.activate_this",
+        "documentation": {}
+    },
+    {
+        "label": "base",
+        "kind": 5,
+        "importPath": ".venv.Scripts.activate_this",
+        "description": ".venv.Scripts.activate_this",
+        "peekOfCode": "base = bin_dir[: -len(\"Scripts\") - 1]  # strip away the bin part from the __file__, plus the path separator\n# prepend bin to PATH (this file is inside the bin directory)\nos.environ[\"PATH\"] = os.pathsep.join([bin_dir, *os.environ.get(\"PATH\", \"\").split(os.pathsep)])\nos.environ[\"VIRTUAL_ENV\"] = base  # virtual env is right above bin directory\nos.environ[\"VIRTUAL_ENV_PROMPT\"] = \"backend\" or os.path.basename(base)  # noqa: SIM222\n# add the virtual environments libraries to the host python import mechanism\nprev_length = len(sys.path)\nfor lib in \"..\\\\Lib\\\\site-packages\".split(os.pathsep):\n    path = os.path.realpath(os.path.join(bin_dir, lib))\n    site.addsitedir(path)",
+        "detail": ".venv.Scripts.activate_this",
+        "documentation": {}
+    },
+    {
+        "label": "os.environ[\"PATH\"]",
+        "kind": 5,
+        "importPath": ".venv.Scripts.activate_this",
+        "description": ".venv.Scripts.activate_this",
+        "peekOfCode": "os.environ[\"PATH\"] = os.pathsep.join([bin_dir, *os.environ.get(\"PATH\", \"\").split(os.pathsep)])\nos.environ[\"VIRTUAL_ENV\"] = base  # virtual env is right above bin directory\nos.environ[\"VIRTUAL_ENV_PROMPT\"] = \"backend\" or os.path.basename(base)  # noqa: SIM222\n# add the virtual environments libraries to the host python import mechanism\nprev_length = len(sys.path)\nfor lib in \"..\\\\Lib\\\\site-packages\".split(os.pathsep):\n    path = os.path.realpath(os.path.join(bin_dir, lib))\n    site.addsitedir(path)\nsys.path[:] = sys.path[prev_length:] + sys.path[0:prev_length]\nsys.real_prefix = sys.prefix",
+        "detail": ".venv.Scripts.activate_this",
+        "documentation": {}
+    },
+    {
+        "label": "os.environ[\"VIRTUAL_ENV\"]",
+        "kind": 5,
+        "importPath": ".venv.Scripts.activate_this",
+        "description": ".venv.Scripts.activate_this",
+        "peekOfCode": "os.environ[\"VIRTUAL_ENV\"] = base  # virtual env is right above bin directory\nos.environ[\"VIRTUAL_ENV_PROMPT\"] = \"backend\" or os.path.basename(base)  # noqa: SIM222\n# add the virtual environments libraries to the host python import mechanism\nprev_length = len(sys.path)\nfor lib in \"..\\\\Lib\\\\site-packages\".split(os.pathsep):\n    path = os.path.realpath(os.path.join(bin_dir, lib))\n    site.addsitedir(path)\nsys.path[:] = sys.path[prev_length:] + sys.path[0:prev_length]\nsys.real_prefix = sys.prefix\nsys.prefix = base",
+        "detail": ".venv.Scripts.activate_this",
+        "documentation": {}
+    },
+    {
+        "label": "os.environ[\"VIRTUAL_ENV_PROMPT\"]",
+        "kind": 5,
+        "importPath": ".venv.Scripts.activate_this",
+        "description": ".venv.Scripts.activate_this",
+        "peekOfCode": "os.environ[\"VIRTUAL_ENV_PROMPT\"] = \"backend\" or os.path.basename(base)  # noqa: SIM222\n# add the virtual environments libraries to the host python import mechanism\nprev_length = len(sys.path)\nfor lib in \"..\\\\Lib\\\\site-packages\".split(os.pathsep):\n    path = os.path.realpath(os.path.join(bin_dir, lib))\n    site.addsitedir(path)\nsys.path[:] = sys.path[prev_length:] + sys.path[0:prev_length]\nsys.real_prefix = sys.prefix\nsys.prefix = base",
+        "detail": ".venv.Scripts.activate_this",
+        "documentation": {}
+    },
+    {
+        "label": "prev_length",
+        "kind": 5,
+        "importPath": ".venv.Scripts.activate_this",
+        "description": ".venv.Scripts.activate_this",
+        "peekOfCode": "prev_length = len(sys.path)\nfor lib in \"..\\\\Lib\\\\site-packages\".split(os.pathsep):\n    path = os.path.realpath(os.path.join(bin_dir, lib))\n    site.addsitedir(path)\nsys.path[:] = sys.path[prev_length:] + sys.path[0:prev_length]\nsys.real_prefix = sys.prefix\nsys.prefix = base",
+        "detail": ".venv.Scripts.activate_this",
+        "documentation": {}
+    },
+    {
+        "label": "sys.path[:]",
+        "kind": 5,
+        "importPath": ".venv.Scripts.activate_this",
+        "description": ".venv.Scripts.activate_this",
+        "peekOfCode": "sys.path[:] = sys.path[prev_length:] + sys.path[0:prev_length]\nsys.real_prefix = sys.prefix\nsys.prefix = base",
+        "detail": ".venv.Scripts.activate_this",
+        "documentation": {}
+    },
+    {
+        "label": "sys.real_prefix",
+        "kind": 5,
+        "importPath": ".venv.Scripts.activate_this",
+        "description": ".venv.Scripts.activate_this",
+        "peekOfCode": "sys.real_prefix = sys.prefix\nsys.prefix = base",
+        "detail": ".venv.Scripts.activate_this",
+        "documentation": {}
+    },
+    {
+        "label": "sys.prefix",
+        "kind": 5,
+        "importPath": ".venv.Scripts.activate_this",
+        "description": ".venv.Scripts.activate_this",
+        "peekOfCode": "sys.prefix = base",
+        "detail": ".venv.Scripts.activate_this",
+        "documentation": {}
+    },
+    {
+        "label": "Tee",
+        "kind": 6,
+        "importPath": ".venv.Scripts.pywin32_postinstall",
+        "description": ".venv.Scripts.pywin32_postinstall",
+        "peekOfCode": "class Tee:\n    def __init__(self, file):\n        self.f = file\n    def write(self, what):\n        if self.f is not None:\n            try:\n                self.f.write(what.replace(\"\\n\", \"\\r\\n\"))\n            except OSError:\n                pass\n        tee_f.write(what)",
+        "detail": ".venv.Scripts.pywin32_postinstall",
+        "documentation": {}
+    },
+    {
+        "label": "get_root_hkey",
+        "kind": 2,
+        "importPath": ".venv.Scripts.pywin32_postinstall",
+        "description": ".venv.Scripts.pywin32_postinstall",
+        "peekOfCode": "def get_root_hkey():\n    try:\n        winreg.OpenKey(\n            winreg.HKEY_LOCAL_MACHINE, root_key_name, 0, winreg.KEY_CREATE_SUB_KEY\n        )\n        return winreg.HKEY_LOCAL_MACHINE\n    except OSError:\n        # Either not exist, or no permissions to create subkey means\n        # must be HKCU\n        return winreg.HKEY_CURRENT_USER",
+        "detail": ".venv.Scripts.pywin32_postinstall",
+        "documentation": {}
+    },
+    {
+        "label": "create_shortcut",
+        "kind": 2,
+        "importPath": ".venv.Scripts.pywin32_postinstall",
+        "description": ".venv.Scripts.pywin32_postinstall",
+        "peekOfCode": "def create_shortcut(\n    path, description, filename, arguments=\"\", workdir=\"\", iconpath=\"\", iconindex=0\n):\n    import pythoncom\n    from win32com.shell import shell\n    ilink = pythoncom.CoCreateInstance(\n        shell.CLSID_ShellLink,\n        None,\n        pythoncom.CLSCTX_INPROC_SERVER,\n        shell.IID_IShellLink,",
+        "detail": ".venv.Scripts.pywin32_postinstall",
+        "documentation": {}
+    },
+    {
+        "label": "get_special_folder_path",
+        "kind": 2,
+        "importPath": ".venv.Scripts.pywin32_postinstall",
+        "description": ".venv.Scripts.pywin32_postinstall",
+        "peekOfCode": "def get_special_folder_path(path_name):\n    from win32com.shell import shell, shellcon\n    for maybe in \"\"\"\n        CSIDL_COMMON_STARTMENU CSIDL_STARTMENU CSIDL_COMMON_APPDATA\n        CSIDL_LOCAL_APPDATA CSIDL_APPDATA CSIDL_COMMON_DESKTOPDIRECTORY\n        CSIDL_DESKTOPDIRECTORY CSIDL_COMMON_STARTUP CSIDL_STARTUP\n        CSIDL_COMMON_PROGRAMS CSIDL_PROGRAMS CSIDL_PROGRAM_FILES_COMMON\n        CSIDL_PROGRAM_FILES CSIDL_FONTS\"\"\".split():\n        if maybe == path_name:\n            csidl = getattr(shellcon, maybe)",
+        "detail": ".venv.Scripts.pywin32_postinstall",
+        "documentation": {}
+    },
+    {
+        "label": "CopyTo",
+        "kind": 2,
+        "importPath": ".venv.Scripts.pywin32_postinstall",
+        "description": ".venv.Scripts.pywin32_postinstall",
+        "peekOfCode": "def CopyTo(desc, src, dest):\n    import win32api\n    import win32con\n    while 1:\n        try:\n            win32api.CopyFile(src, dest, 0)\n            return\n        except win32api.error as details:\n            if details.winerror == 5:  # access denied - user not admin.\n                raise",
+        "detail": ".venv.Scripts.pywin32_postinstall",
+        "documentation": {}
+    },
+    {
+        "label": "LoadSystemModule",
+        "kind": 2,
+        "importPath": ".venv.Scripts.pywin32_postinstall",
+        "description": ".venv.Scripts.pywin32_postinstall",
+        "peekOfCode": "def LoadSystemModule(lib_dir, modname):\n    # See if this is a debug build.\n    import importlib.machinery\n    import importlib.util\n    suffix = \"_d\" if \"_d.pyd\" in importlib.machinery.EXTENSION_SUFFIXES else \"\"\n    filename = \"%s%d%d%s.dll\" % (\n        modname,\n        sys.version_info.major,\n        sys.version_info.minor,\n        suffix,",
+        "detail": ".venv.Scripts.pywin32_postinstall",
+        "documentation": {}
+    },
+    {
+        "label": "SetPyKeyVal",
+        "kind": 2,
+        "importPath": ".venv.Scripts.pywin32_postinstall",
+        "description": ".venv.Scripts.pywin32_postinstall",
+        "peekOfCode": "def SetPyKeyVal(key_name, value_name, value):\n    root_hkey = get_root_hkey()\n    root_key = winreg.OpenKey(root_hkey, root_key_name)\n    try:\n        my_key = winreg.CreateKey(root_key, key_name)\n        try:\n            winreg.SetValueEx(my_key, value_name, 0, winreg.REG_SZ, value)\n            if verbose:\n                print(f\"-> {root_key_name}\\\\{key_name}[{value_name}]={value!r}\")\n        finally:",
+        "detail": ".venv.Scripts.pywin32_postinstall",
+        "documentation": {}
+    },
+    {
+        "label": "UnsetPyKeyVal",
+        "kind": 2,
+        "importPath": ".venv.Scripts.pywin32_postinstall",
+        "description": ".venv.Scripts.pywin32_postinstall",
+        "peekOfCode": "def UnsetPyKeyVal(key_name, value_name, delete_key=False):\n    root_hkey = get_root_hkey()\n    root_key = winreg.OpenKey(root_hkey, root_key_name)\n    try:\n        my_key = winreg.OpenKey(root_key, key_name, 0, winreg.KEY_SET_VALUE)\n        try:\n            winreg.DeleteValue(my_key, value_name)\n            if verbose:\n                print(f\"-> DELETE {root_key_name}\\\\{key_name}[{value_name}]\")\n        finally:",
+        "detail": ".venv.Scripts.pywin32_postinstall",
+        "documentation": {}
+    },
+    {
+        "label": "RegisterCOMObjects",
+        "kind": 2,
+        "importPath": ".venv.Scripts.pywin32_postinstall",
+        "description": ".venv.Scripts.pywin32_postinstall",
+        "peekOfCode": "def RegisterCOMObjects(register=True):\n    import win32com.server.register\n    if register:\n        func = win32com.server.register.RegisterClasses\n    else:\n        func = win32com.server.register.UnregisterClasses\n    flags = {}\n    if not verbose:\n        flags[\"quiet\"] = 1\n    for module, klass_name in com_modules:",
+        "detail": ".venv.Scripts.pywin32_postinstall",
+        "documentation": {}
+    },
+    {
+        "label": "RegisterHelpFile",
+        "kind": 2,
+        "importPath": ".venv.Scripts.pywin32_postinstall",
+        "description": ".venv.Scripts.pywin32_postinstall",
+        "peekOfCode": "def RegisterHelpFile(register=True, lib_dir=None):\n    if lib_dir is None:\n        lib_dir = sysconfig.get_paths()[\"platlib\"]\n    if register:\n        # Register the .chm help file.\n        chm_file = os.path.join(lib_dir, \"PyWin32.chm\")\n        if os.path.isfile(chm_file):\n            # This isn't recursive, so if 'Help' doesn't exist, we croak\n            SetPyKeyVal(\"Help\", None, None)\n            SetPyKeyVal(\"Help\\\\Pythonwin Reference\", None, chm_file)",
+        "detail": ".venv.Scripts.pywin32_postinstall",
+        "documentation": {}
+    },
+    {
+        "label": "RegisterPythonwin",
+        "kind": 2,
+        "importPath": ".venv.Scripts.pywin32_postinstall",
+        "description": ".venv.Scripts.pywin32_postinstall",
+        "peekOfCode": "def RegisterPythonwin(register=True, lib_dir=None):\n    \"\"\"Add (or remove) Pythonwin to context menu for python scripts.\n    ??? Should probably also add Edit command for pys files also.\n    Also need to remove these keys on uninstall, but there's no function\n    to add registry entries to uninstall log ???\n    \"\"\"\n    import os\n    if lib_dir is None:\n        lib_dir = sysconfig.get_paths()[\"platlib\"]\n    classes_root = get_root_hkey()",
+        "detail": ".venv.Scripts.pywin32_postinstall",
+        "documentation": {}
+    },
+    {
+        "label": "get_shortcuts_folder",
+        "kind": 2,
+        "importPath": ".venv.Scripts.pywin32_postinstall",
+        "description": ".venv.Scripts.pywin32_postinstall",
+        "peekOfCode": "def get_shortcuts_folder():\n    if get_root_hkey() == winreg.HKEY_LOCAL_MACHINE:\n        fldr = get_special_folder_path(\"CSIDL_COMMON_PROGRAMS\")\n    else:\n        # non-admin install - always goes in this user's start menu.\n        fldr = get_special_folder_path(\"CSIDL_PROGRAMS\")\n    try:\n        install_group = winreg.QueryValue(\n            get_root_hkey(), root_key_name + \"\\\\InstallPath\\\\InstallGroup\"\n        )",
+        "detail": ".venv.Scripts.pywin32_postinstall",
+        "documentation": {}
+    },
+    {
+        "label": "get_system_dir",
+        "kind": 2,
+        "importPath": ".venv.Scripts.pywin32_postinstall",
+        "description": ".venv.Scripts.pywin32_postinstall",
+        "peekOfCode": "def get_system_dir():\n    import win32api  # we assume this exists.\n    try:\n        import pythoncom\n        import win32process\n        from win32com.shell import shell, shellcon\n        try:\n            if win32process.IsWow64Process():\n                return shell.SHGetSpecialFolderPath(0, shellcon.CSIDL_SYSTEMX86)\n            return shell.SHGetSpecialFolderPath(0, shellcon.CSIDL_SYSTEM)",
+        "detail": ".venv.Scripts.pywin32_postinstall",
+        "documentation": {}
+    },
+    {
+        "label": "fixup_dbi",
+        "kind": 2,
+        "importPath": ".venv.Scripts.pywin32_postinstall",
+        "description": ".venv.Scripts.pywin32_postinstall",
+        "peekOfCode": "def fixup_dbi():\n    # We used to have a dbi.pyd with our .pyd files, but now have a .py file.\n    # If the user didn't uninstall, they will find the .pyd which will cause\n    # problems - so handle that.\n    import win32api\n    import win32con\n    pyd_name = os.path.join(os.path.dirname(win32api.__file__), \"dbi.pyd\")\n    pyd_d_name = os.path.join(os.path.dirname(win32api.__file__), \"dbi_d.pyd\")\n    py_name = os.path.join(os.path.dirname(win32con.__file__), \"dbi.py\")\n    for this_pyd in (pyd_name, pyd_d_name):",
+        "detail": ".venv.Scripts.pywin32_postinstall",
+        "documentation": {}
+    },
+    {
+        "label": "install",
+        "kind": 2,
+        "importPath": ".venv.Scripts.pywin32_postinstall",
+        "description": ".venv.Scripts.pywin32_postinstall",
+        "peekOfCode": "def install(lib_dir):\n    import traceback\n    # The .pth file is now installed as a regular file.\n    # Create the .pth file in the site-packages dir, and use only relative paths\n    # We used to write a .pth directly to sys.prefix - clobber it.\n    if os.path.isfile(os.path.join(sys.prefix, \"pywin32.pth\")):\n        os.unlink(os.path.join(sys.prefix, \"pywin32.pth\"))\n    # The .pth may be new and therefore not loaded in this session.\n    # Setup the paths just in case.\n    for name in \"win32 win32\\\\lib Pythonwin\".split():",
+        "detail": ".venv.Scripts.pywin32_postinstall",
+        "documentation": {}
+    },
+    {
+        "label": "uninstall",
+        "kind": 2,
+        "importPath": ".venv.Scripts.pywin32_postinstall",
+        "description": ".venv.Scripts.pywin32_postinstall",
+        "peekOfCode": "def uninstall(lib_dir):\n    # First ensure our system modules are loaded from pywin32_system, so\n    # we can remove the ones we copied...\n    LoadSystemModule(lib_dir, \"pywintypes\")\n    LoadSystemModule(lib_dir, \"pythoncom\")\n    try:\n        RegisterCOMObjects(False)\n    except Exception as why:\n        print(f\"Failed to unregister COM objects: {why}\")\n    try:",
+        "detail": ".venv.Scripts.pywin32_postinstall",
+        "documentation": {}
+    },
+    {
+        "label": "verify_destination",
+        "kind": 2,
+        "importPath": ".venv.Scripts.pywin32_postinstall",
+        "description": ".venv.Scripts.pywin32_postinstall",
+        "peekOfCode": "def verify_destination(location: str) -> str:\n    location = os.path.abspath(location)\n    if not os.path.isdir(location):\n        raise argparse.ArgumentTypeError(\n            f'Path \"{location}\" is not an existing directory!'\n        )\n    return location\ndef main():\n    parser = argparse.ArgumentParser(\n        formatter_class=argparse.RawDescriptionHelpFormatter,",
+        "detail": ".venv.Scripts.pywin32_postinstall",
+        "documentation": {}
+    },
+    {
+        "label": "main",
+        "kind": 2,
+        "importPath": ".venv.Scripts.pywin32_postinstall",
+        "description": ".venv.Scripts.pywin32_postinstall",
+        "peekOfCode": "def main():\n    parser = argparse.ArgumentParser(\n        formatter_class=argparse.RawDescriptionHelpFormatter,\n        description=\"\"\"A post-install script for the pywin32 extensions.\n    * Typical usage:\n    > python -m pywin32_postinstall -install\n    * or (shorter but you don't have control over which python environment is used)\n    > pywin32_postinstall -install\n    You need to execute this script, with a '-install' parameter,\n    to ensure the environment is setup correctly to install COM objects, services, etc.",
+        "detail": ".venv.Scripts.pywin32_postinstall",
+        "documentation": {}
+    },
+    {
+        "label": "tee_f",
+        "kind": 5,
+        "importPath": ".venv.Scripts.pywin32_postinstall",
+        "description": ".venv.Scripts.pywin32_postinstall",
+        "peekOfCode": "tee_f = open(\n    os.path.join(\n        tempfile.gettempdir(),  # Send output somewhere so it can be found if necessary...\n        \"pywin32_postinstall.log\",\n    ),\n    \"w\",\n)\nclass Tee:\n    def __init__(self, file):\n        self.f = file",
+        "detail": ".venv.Scripts.pywin32_postinstall",
+        "documentation": {}
+    },
+    {
+        "label": "sys.stderr",
+        "kind": 5,
+        "importPath": ".venv.Scripts.pywin32_postinstall",
+        "description": ".venv.Scripts.pywin32_postinstall",
+        "peekOfCode": "sys.stderr = Tee(sys.stderr)\nsys.stdout = Tee(sys.stdout)\ncom_modules = [\n    # module_name,                      class_names\n    (\"win32com.servers.interp\", \"Interpreter\"),\n    (\"win32com.servers.dictionary\", \"DictionaryPolicy\"),\n    (\"win32com.axscript.client.pyscript\", \"PyScript\"),\n]\n# Is this a 'silent' install - ie, avoid all dialogs.\n# Different than 'verbose'",
+        "detail": ".venv.Scripts.pywin32_postinstall",
+        "documentation": {}
+    },
+    {
+        "label": "sys.stdout",
+        "kind": 5,
+        "importPath": ".venv.Scripts.pywin32_postinstall",
+        "description": ".venv.Scripts.pywin32_postinstall",
+        "peekOfCode": "sys.stdout = Tee(sys.stdout)\ncom_modules = [\n    # module_name,                      class_names\n    (\"win32com.servers.interp\", \"Interpreter\"),\n    (\"win32com.servers.dictionary\", \"DictionaryPolicy\"),\n    (\"win32com.axscript.client.pyscript\", \"PyScript\"),\n]\n# Is this a 'silent' install - ie, avoid all dialogs.\n# Different than 'verbose'\nsilent = 0",
+        "detail": ".venv.Scripts.pywin32_postinstall",
+        "documentation": {}
+    },
+    {
+        "label": "com_modules",
+        "kind": 5,
+        "importPath": ".venv.Scripts.pywin32_postinstall",
+        "description": ".venv.Scripts.pywin32_postinstall",
+        "peekOfCode": "com_modules = [\n    # module_name,                      class_names\n    (\"win32com.servers.interp\", \"Interpreter\"),\n    (\"win32com.servers.dictionary\", \"DictionaryPolicy\"),\n    (\"win32com.axscript.client.pyscript\", \"PyScript\"),\n]\n# Is this a 'silent' install - ie, avoid all dialogs.\n# Different than 'verbose'\nsilent = 0\n# Verbosity of output messages.",
+        "detail": ".venv.Scripts.pywin32_postinstall",
+        "documentation": {}
+    },
+    {
+        "label": "silent",
+        "kind": 5,
+        "importPath": ".venv.Scripts.pywin32_postinstall",
+        "description": ".venv.Scripts.pywin32_postinstall",
+        "peekOfCode": "silent = 0\n# Verbosity of output messages.\nverbose = 1\nroot_key_name = \"Software\\\\Python\\\\PythonCore\\\\\" + sys.winver\ndef get_root_hkey():\n    try:\n        winreg.OpenKey(\n            winreg.HKEY_LOCAL_MACHINE, root_key_name, 0, winreg.KEY_CREATE_SUB_KEY\n        )\n        return winreg.HKEY_LOCAL_MACHINE",
+        "detail": ".venv.Scripts.pywin32_postinstall",
+        "documentation": {}
+    },
+    {
+        "label": "verbose",
+        "kind": 5,
+        "importPath": ".venv.Scripts.pywin32_postinstall",
+        "description": ".venv.Scripts.pywin32_postinstall",
+        "peekOfCode": "verbose = 1\nroot_key_name = \"Software\\\\Python\\\\PythonCore\\\\\" + sys.winver\ndef get_root_hkey():\n    try:\n        winreg.OpenKey(\n            winreg.HKEY_LOCAL_MACHINE, root_key_name, 0, winreg.KEY_CREATE_SUB_KEY\n        )\n        return winreg.HKEY_LOCAL_MACHINE\n    except OSError:\n        # Either not exist, or no permissions to create subkey means",
+        "detail": ".venv.Scripts.pywin32_postinstall",
+        "documentation": {}
+    },
+    {
+        "label": "root_key_name",
+        "kind": 5,
+        "importPath": ".venv.Scripts.pywin32_postinstall",
+        "description": ".venv.Scripts.pywin32_postinstall",
+        "peekOfCode": "root_key_name = \"Software\\\\Python\\\\PythonCore\\\\\" + sys.winver\ndef get_root_hkey():\n    try:\n        winreg.OpenKey(\n            winreg.HKEY_LOCAL_MACHINE, root_key_name, 0, winreg.KEY_CREATE_SUB_KEY\n        )\n        return winreg.HKEY_LOCAL_MACHINE\n    except OSError:\n        # Either not exist, or no permissions to create subkey means\n        # must be HKCU",
+        "detail": ".venv.Scripts.pywin32_postinstall",
+        "documentation": {}
+    },
+    {
+        "label": "run_test",
+        "kind": 2,
+        "importPath": ".venv.Scripts.pywin32_testall",
+        "description": ".venv.Scripts.pywin32_testall",
+        "peekOfCode": "def run_test(script, cmdline_extras):\n    dirname, scriptname = os.path.split(script)\n    # some tests prefer to be run from their directory.\n    cmd = [sys.executable, \"-u\", scriptname] + cmdline_extras\n    print(\"--- Running '%s' ---\" % script)\n    sys.stdout.flush()\n    result = subprocess.run(cmd, check=False, cwd=dirname)\n    print(f\"*** Test script '{script}' exited with {result.returncode}\")\n    sys.stdout.flush()\n    if result.returncode:",
+        "detail": ".venv.Scripts.pywin32_testall",
+        "documentation": {}
+    },
+    {
+        "label": "find_and_run",
+        "kind": 2,
+        "importPath": ".venv.Scripts.pywin32_testall",
+        "description": ".venv.Scripts.pywin32_testall",
+        "peekOfCode": "def find_and_run(possible_locations, extras):\n    for maybe in possible_locations:\n        if os.path.isfile(maybe):\n            run_test(maybe, extras)\n            break\n    else:\n        raise RuntimeError(\n            \"Failed to locate a test script in one of %s\" % possible_locations\n        )\ndef main():",
+        "detail": ".venv.Scripts.pywin32_testall",
+        "documentation": {}
+    },
+    {
+        "label": "main",
+        "kind": 2,
+        "importPath": ".venv.Scripts.pywin32_testall",
+        "description": ".venv.Scripts.pywin32_testall",
+        "peekOfCode": "def main():\n    import argparse\n    code_directories = [project_root] + site_packages\n    parser = argparse.ArgumentParser(\n        description=\"A script to trigger tests in all subprojects of PyWin32.\"\n    )\n    parser.add_argument(\n        \"-no-user-interaction\",\n        default=False,\n        action=\"store_true\",",
+        "detail": ".venv.Scripts.pywin32_testall",
+        "documentation": {}
+    },
+    {
+        "label": "project_root",
+        "kind": 5,
+        "importPath": ".venv.Scripts.pywin32_testall",
+        "description": ".venv.Scripts.pywin32_testall",
+        "peekOfCode": "project_root = os.path.dirname(os.path.dirname(os.path.dirname(__file__)))\nsite_packages = [site.getusersitepackages()] + site.getsitepackages()\nfailures = []\n# Run a test using subprocess and wait for the result.\n# If we get an returncode != 0, we know that there was an error, but we don't\n# abort immediately - we run as many tests as we can.\ndef run_test(script, cmdline_extras):\n    dirname, scriptname = os.path.split(script)\n    # some tests prefer to be run from their directory.\n    cmd = [sys.executable, \"-u\", scriptname] + cmdline_extras",
+        "detail": ".venv.Scripts.pywin32_testall",
+        "documentation": {}
+    },
+    {
+        "label": "site_packages",
+        "kind": 5,
+        "importPath": ".venv.Scripts.pywin32_testall",
+        "description": ".venv.Scripts.pywin32_testall",
+        "peekOfCode": "site_packages = [site.getusersitepackages()] + site.getsitepackages()\nfailures = []\n# Run a test using subprocess and wait for the result.\n# If we get an returncode != 0, we know that there was an error, but we don't\n# abort immediately - we run as many tests as we can.\ndef run_test(script, cmdline_extras):\n    dirname, scriptname = os.path.split(script)\n    # some tests prefer to be run from their directory.\n    cmd = [sys.executable, \"-u\", scriptname] + cmdline_extras\n    print(\"--- Running '%s' ---\" % script)",
+        "detail": ".venv.Scripts.pywin32_testall",
+        "documentation": {}
+    },
+    {
+        "label": "failures",
+        "kind": 5,
+        "importPath": ".venv.Scripts.pywin32_testall",
+        "description": ".venv.Scripts.pywin32_testall",
+        "peekOfCode": "failures = []\n# Run a test using subprocess and wait for the result.\n# If we get an returncode != 0, we know that there was an error, but we don't\n# abort immediately - we run as many tests as we can.\ndef run_test(script, cmdline_extras):\n    dirname, scriptname = os.path.split(script)\n    # some tests prefer to be run from their directory.\n    cmd = [sys.executable, \"-u\", scriptname] + cmdline_extras\n    print(\"--- Running '%s' ---\" % script)\n    sys.stdout.flush()",
+        "detail": ".venv.Scripts.pywin32_testall",
+        "documentation": {}
+    },
+    {
+        "label": "router",
+        "kind": 5,
+        "importPath": "src.backend.api.routes.documents",
+        "description": "src.backend.api.routes.documents",
+        "peekOfCode": "router = APIRouter(\n    prefix=\"/documents\",\n    tags=[\"Documents\"]\n)\n# UploadFile represent the upload file\n# File(...) = ... called Ellipsis\n# Here, the `...` inside `File(...)` indicates to FastAPI that this `file` parameter is required; meaning, the client must upload a file.\n@router.post(\"/upload\")\nasync def upload_document(\n    file: UploadFile = File(...),",
+        "detail": "src.backend.api.routes.documents",
+        "documentation": {}
+    },
+    {
+        "label": "root",
+        "kind": 2,
+        "importPath": "src.backend.api.routes.documents_old",
+        "description": "src.backend.api.routes.documents_old",
+        "peekOfCode": "def root():\n    return {\n        \"message\": \"IntelliDocs API is running\"\n    }\n@router.get(\"/embeddings/test\")\ndef test_embedding():\n    text = \"Employees get 12 casual leaves per year.\"\n    vector = create_embedding(text)\n    return {\n        \"text\": text,",
+        "detail": "src.backend.api.routes.documents_old",
+        "documentation": {}
+    },
+    {
+        "label": "test_embedding",
+        "kind": 2,
+        "importPath": "src.backend.api.routes.documents_old",
+        "description": "src.backend.api.routes.documents_old",
+        "peekOfCode": "def test_embedding():\n    text = \"Employees get 12 casual leaves per year.\"\n    vector = create_embedding(text)\n    return {\n        \"text\": text,\n        \"vector_size\": len(vector),\n        \"vector_preview\": vector[:5],\n    }\n@router.get(\"/health\")\ndef health_check():",
+        "detail": "src.backend.api.routes.documents_old",
+        "documentation": {}
+    },
+    {
+        "label": "health_check",
+        "kind": 2,
+        "importPath": "src.backend.api.routes.documents_old",
+        "description": "src.backend.api.routes.documents_old",
+        "peekOfCode": "def health_check():\n    return get_health_status()\n@router.get(\"/collections\")\ndef get_collections():\n    return {\n        \"collections\": list_collections()\n    }\n@router.post(\"/collections/documents\")\ndef create_documents_collection():\n    create_demo_documents_collection()",
+        "detail": "src.backend.api.routes.documents_old",
+        "documentation": {}
+    },
+    {
+        "label": "get_collections",
+        "kind": 2,
+        "importPath": "src.backend.api.routes.documents_old",
+        "description": "src.backend.api.routes.documents_old",
+        "peekOfCode": "def get_collections():\n    return {\n        \"collections\": list_collections()\n    }\n@router.post(\"/collections/documents\")\ndef create_documents_collection():\n    create_demo_documents_collection()\n    return {\n        \"message\": \"Documents collection created successfully\"\n    }",
+        "detail": "src.backend.api.routes.documents_old",
+        "documentation": {}
+    },
+    {
+        "label": "create_documents_collection",
+        "kind": 2,
+        "importPath": "src.backend.api.routes.documents_old",
+        "description": "src.backend.api.routes.documents_old",
+        "peekOfCode": "def create_documents_collection():\n    create_demo_documents_collection()\n    return {\n        \"message\": \"Documents collection created successfully\"\n    }\n@router.post(\"/documents/seed\")\ndef seed_documents():\n    seed_demo_documents()\n    return {\n        \"message\": \"Documents inserted successfully\"",
+        "detail": "src.backend.api.routes.documents_old",
+        "documentation": {}
+    },
+    {
+        "label": "seed_documents",
+        "kind": 2,
+        "importPath": "src.backend.api.routes.documents_old",
+        "description": "src.backend.api.routes.documents_old",
+        "peekOfCode": "def seed_documents():\n    seed_demo_documents()\n    return {\n        \"message\": \"Documents inserted successfully\"\n    }\n@router.get(\"/documents/search\")\ndef search_documents():\n    return {\n        \"results\": search_demo_documents()\n    }",
+        "detail": "src.backend.api.routes.documents_old",
+        "documentation": {}
+    },
+    {
+        "label": "search_documents",
+        "kind": 2,
+        "importPath": "src.backend.api.routes.documents_old",
+        "description": "src.backend.api.routes.documents_old",
+        "peekOfCode": "def search_documents():\n    return {\n        \"results\": search_demo_documents()\n    }\n# ! Store Real Embeddings in Qdrant\n@router.post(\"/collections/documents-v2\")\ndef create_documents_v2_collection():\n    create_real_documents_collection()\n    return {\n        \"message\": \"Documents_v2 collection created successfully\"",
+        "detail": "src.backend.api.routes.documents_old",
+        "documentation": {}
+    },
+    {
+        "label": "create_documents_v2_collection",
+        "kind": 2,
+        "importPath": "src.backend.api.routes.documents_old",
+        "description": "src.backend.api.routes.documents_old",
+        "peekOfCode": "def create_documents_v2_collection():\n    create_real_documents_collection()\n    return {\n        \"message\": \"Documents_v2 collection created successfully\"\n    }\n@router.post(\"/documents-v2/seed\")\ndef seed_real_documents(document: DocumentCreate):\n    return seed_real_document(document)\n@router.post(\"/documents-v2/search\")\ndef search_documents_v2(request: SearchRequest):",
+        "detail": "src.backend.api.routes.documents_old",
+        "documentation": {}
+    },
+    {
+        "label": "seed_real_documents",
+        "kind": 2,
+        "importPath": "src.backend.api.routes.documents_old",
+        "description": "src.backend.api.routes.documents_old",
+        "peekOfCode": "def seed_real_documents(document: DocumentCreate):\n    return seed_real_document(document)\n@router.post(\"/documents-v2/search\")\ndef search_documents_v2(request: SearchRequest):\n    return search_real_documents(request)",
+        "detail": "src.backend.api.routes.documents_old",
+        "documentation": {}
+    },
+    {
+        "label": "search_documents_v2",
+        "kind": 2,
+        "importPath": "src.backend.api.routes.documents_old",
+        "description": "src.backend.api.routes.documents_old",
+        "peekOfCode": "def search_documents_v2(request: SearchRequest):\n    return search_real_documents(request)",
+        "detail": "src.backend.api.routes.documents_old",
+        "documentation": {}
+    },
+    {
+        "label": "router",
+        "kind": 5,
+        "importPath": "src.backend.api.routes.documents_old",
+        "description": "src.backend.api.routes.documents_old",
+        "peekOfCode": "router = APIRouter()\n@router.get(\"/\")\ndef root():\n    return {\n        \"message\": \"IntelliDocs API is running\"\n    }\n@router.get(\"/embeddings/test\")\ndef test_embedding():\n    text = \"Employees get 12 casual leaves per year.\"\n    vector = create_embedding(text)",
+        "detail": "src.backend.api.routes.documents_old",
+        "documentation": {}
+    },
+    {
+        "label": "get_document_controller",
+        "kind": 2,
+        "importPath": "src.backend.api.dependencies",
+        "description": "src.backend.api.dependencies",
+        "peekOfCode": "def get_document_controller() -> DocumentController:\n    parser = PdfParser()\n    service = DocumentService(\n        parser=parser\n    )\n    return DocumentController(\n        document_service=service\n    )",
+        "detail": "src.backend.api.dependencies",
+        "documentation": {}
+    },
+    {
+        "label": "DocumentController",
+        "kind": 6,
+        "importPath": "src.backend.controllers.document_controller",
+        "description": "src.backend.controllers.document_controller",
+        "peekOfCode": "class DocumentController:\n    def __init__(self, document_service: DocumentService):\n        self.document_service = document_service\n    async def upload_pdf(self, file: UploadFile):\n        file_byte = await file.read()\n        pages = self.document_service.extract_pages(file_byte)\n        return {\n            \"filename\": file.filename,\n            \"content_type\": file.content_type,\n            \"total_pages\": len(pages),",
+        "detail": "src.backend.controllers.document_controller",
+        "documentation": {}
+    },
+    {
+        "label": "Settings",
+        "kind": 6,
+        "importPath": "src.backend.core.config",
+        "description": "src.backend.core.config",
+        "peekOfCode": "class Settings(BaseModel):\n    qdrant_url: str = os.getenv(\"QDRANT_URL\", \"http://localhost:6333/\")\n    demo_documents_collection: str = os.getenv(\"DEMO_DOCUMENTS_COLLECTION\", \"documents\")\n    documents_collection: str = os.getenv(\"DOCUMENTS_COLLECTION\", \"documents_v2\")\n    demo_vector_size: int = int(os.getenv(\"DEMO_VECTOR_SIZE\", \"3\"))\n    embedding_vector_size: int = int(os.getenv(\"EMBEDDING_VECTOR_SIZE\", \"384\"))\n    embedding_model_name: str = os.getenv(\"EMBEDDING_MODEL_NAME\", \"all-MiniLM-L6-v2\")\n    search_score_threshold: float = float(os.getenv(\"SEARCH_SCORE_THRESHOLD\", \"0.4\"))\nsettings = Settings()",
+        "detail": "src.backend.core.config",
+        "documentation": {}
+    },
+    {
+        "label": "settings",
+        "kind": 5,
+        "importPath": "src.backend.core.config",
+        "description": "src.backend.core.config",
+        "peekOfCode": "settings = Settings()",
+        "detail": "src.backend.core.config",
+        "documentation": {}
+    },
+    {
+        "label": "qdrant_client",
+        "kind": 5,
+        "importPath": "src.backend.db.qdrant",
+        "description": "src.backend.db.qdrant",
+        "peekOfCode": "qdrant_client = QdrantClient(\n    url=settings.qdrant_url\n)",
+        "detail": "src.backend.db.qdrant",
+        "documentation": {}
+    },
+    {
+        "label": "DocumentParser",
+        "kind": 6,
+        "importPath": "src.backend.parsers.document_parser",
+        "description": "src.backend.parsers.document_parser",
+        "peekOfCode": "class DocumentParser(ABC):\n    @abstractmethod\n    def extract_pages(self, file_bytes: bytes) -> list[DocumentPage]:\n        pass",
+        "detail": "src.backend.parsers.document_parser",
+        "documentation": {}
+    },
+    {
+        "label": "PdfParser",
+        "kind": 6,
+        "importPath": "src.backend.parsers.pdf_parser",
+        "description": "src.backend.parsers.pdf_parser",
+        "peekOfCode": "class PdfParser(DocumentParser):\n    def extract_pages(self, file_bytes: bytes) -> list[DocumentPage]:\n        # Here, I am opening the PDF from memory bytes instead of providing a disk path.\n        # Concept - PDF bytes -> PyMuPDF -> document object\n        document = pymupdf.open(\n            stream=file_bytes,\n            filetype=\"pdf\"\n        )\n        pages: list[DocumentPage] = []\n        for index,page in enumerate(document, start=1):",
+        "detail": "src.backend.parsers.pdf_parser",
+        "documentation": {}
+    },
+    {
+        "label": "get_collections_count",
+        "kind": 2,
+        "importPath": "src.backend.repositories.vector_repository",
+        "description": "src.backend.repositories.vector_repository",
+        "peekOfCode": "def get_collections_count() -> int:\n    collections = qdrant_client.get_collections()\n    return len(collections.collections)\ndef get_collection_names() -> list[str]:\n    collections = qdrant_client.get_collections()\n    return [\n        collection.name for collection in collections.collections\n    ]\ndef create_demo_collection() -> None:\n    qdrant_client.create_collection(",
+        "detail": "src.backend.repositories.vector_repository",
+        "documentation": {}
+    },
+    {
+        "label": "get_collection_names",
+        "kind": 2,
+        "importPath": "src.backend.repositories.vector_repository",
+        "description": "src.backend.repositories.vector_repository",
+        "peekOfCode": "def get_collection_names() -> list[str]:\n    collections = qdrant_client.get_collections()\n    return [\n        collection.name for collection in collections.collections\n    ]\ndef create_demo_collection() -> None:\n    qdrant_client.create_collection(\n        collection_name=settings.demo_documents_collection,\n        # VectorParams decides how vectors are stored in Qdrant.\n        vectors_config=VectorParams(",
+        "detail": "src.backend.repositories.vector_repository",
+        "documentation": {}
+    },
+    {
+        "label": "create_demo_collection",
+        "kind": 2,
+        "importPath": "src.backend.repositories.vector_repository",
+        "description": "src.backend.repositories.vector_repository",
+        "peekOfCode": "def create_demo_collection() -> None:\n    qdrant_client.create_collection(\n        collection_name=settings.demo_documents_collection,\n        # VectorParams decides how vectors are stored in Qdrant.\n        vectors_config=VectorParams(\n            size=settings.demo_vector_size,\n            distance=Distance.COSINE,\n        ),\n    )\ndef seed_demo_points() -> None:",
+        "detail": "src.backend.repositories.vector_repository",
+        "documentation": {}
+    },
+    {
+        "label": "seed_demo_points",
+        "kind": 2,
+        "importPath": "src.backend.repositories.vector_repository",
+        "description": "src.backend.repositories.vector_repository",
+        "peekOfCode": "def seed_demo_points() -> None:\n    # These vectors are 3 dimensional manual vectors for learning purpose.\n    points = [\n        PointStruct(\n            id=1,\n            vector=[1.0, 0.0, 0.0],\n            payload={\n                \"text\": \"Employees get 12 casual leaves per year.\"\n            },\n        ),",
+        "detail": "src.backend.repositories.vector_repository",
+        "documentation": {}
+    },
+    {
+        "label": "search_demo_points",
+        "kind": 2,
+        "importPath": "src.backend.repositories.vector_repository",
+        "description": "src.backend.repositories.vector_repository",
+        "peekOfCode": "def search_demo_points() -> list[dict]:\n    # Stored: [1.0, 0.0, 0.0], query: [0.9, 0.1, 0.0]\n    results = qdrant_client.query_points(\n        collection_name=settings.demo_documents_collection,\n        query=[0.9, 0.1, 0.0],\n        limit=3,\n    )\n    return _format_points(results.points)\ndef create_documents_collection() -> None:\n    qdrant_client.create_collection(",
+        "detail": "src.backend.repositories.vector_repository",
+        "documentation": {}
+    },
+    {
+        "label": "create_documents_collection",
+        "kind": 2,
+        "importPath": "src.backend.repositories.vector_repository",
+        "description": "src.backend.repositories.vector_repository",
+        "peekOfCode": "def create_documents_collection() -> None:\n    qdrant_client.create_collection(\n        collection_name=settings.documents_collection,\n        vectors_config=VectorParams(\n            size=settings.embedding_vector_size,\n            distance=Distance.COSINE,\n        ),\n    )\ndef upsert_document(\n    document_id: str,",
+        "detail": "src.backend.repositories.vector_repository",
+        "documentation": {}
+    },
+    {
+        "label": "upsert_document",
+        "kind": 2,
+        "importPath": "src.backend.repositories.vector_repository",
+        "description": "src.backend.repositories.vector_repository",
+        "peekOfCode": "def upsert_document(\n    document_id: str,\n    vector: list[float],\n    text: str,\n    source: str | None,\n    category: str | None,\n) -> None:\n    point = PointStruct(\n        id=document_id,\n        vector=vector,",
+        "detail": "src.backend.repositories.vector_repository",
+        "documentation": {}
+    },
+    {
+        "label": "search_documents",
+        "kind": 2,
+        "importPath": "src.backend.repositories.vector_repository",
+        "description": "src.backend.repositories.vector_repository",
+        "peekOfCode": "def search_documents(\n    query_vector: list[float],\n    limit: int,\n    category: str | None,\n) -> list[dict]:\n    query_filter = _build_category_filter(category)\n    results = qdrant_client.query_points(\n        collection_name=settings.documents_collection,\n        query=query_vector,\n        query_filter=query_filter,",
+        "detail": "src.backend.repositories.vector_repository",
+        "documentation": {}
+    },
+    {
+        "label": "DocumentPage",
+        "kind": 6,
+        "importPath": "src.backend.schemas.document",
+        "description": "src.backend.schemas.document",
+        "peekOfCode": "class DocumentPage(BaseModel):\n    page_number: int\n    text: str",
+        "detail": "src.backend.schemas.document",
+        "documentation": {}
+    },
+    {
+        "label": "DocumentCreate",
+        "kind": 6,
+        "importPath": "src.backend.schemas.document_old",
+        "description": "src.backend.schemas.document_old",
+        "peekOfCode": "class DocumentCreate(BaseModel):\n    text: str\n    source: str | None = None\n    category: str | None = None\n# Here SearchRequest is the Schema or Structure of request body.\nclass SearchRequest(BaseModel):\n    query: str = Field(min_length=2)\n    limit: int = Field(default=3, ge=1, le=10)\n    category: str | None = None",
+        "detail": "src.backend.schemas.document_old",
+        "documentation": {}
+    },
+    {
+        "label": "SearchRequest",
+        "kind": 6,
+        "importPath": "src.backend.schemas.document_old",
+        "description": "src.backend.schemas.document_old",
+        "peekOfCode": "class SearchRequest(BaseModel):\n    query: str = Field(min_length=2)\n    limit: int = Field(default=3, ge=1, le=10)\n    category: str | None = None",
+        "detail": "src.backend.schemas.document_old",
+        "documentation": {}
+    },
+    {
+        "label": "DocumentService",
+        "kind": 6,
+        "importPath": "src.backend.services.document_service",
+        "description": "src.backend.services.document_service",
+        "peekOfCode": "class DocumentService:\n    def __init__(self, parser: DocumentParser):\n        self.parser = parser\n    def extract_pages(self, file_bytes: bytes) -> list[DocumentPage]:\n        return self.parser.extract_pages(file_bytes)",
+        "detail": "src.backend.services.document_service",
+        "documentation": {}
+    },
+    {
+        "label": "get_health_status",
+        "kind": 2,
+        "importPath": "src.backend.services.document_service_old",
+        "description": "src.backend.services.document_service_old",
+        "peekOfCode": "def get_health_status() -> dict:\n    return {\n        \"status\": \"healthy\",\n        \"qdrant\": \"connected\",\n        \"collections\": get_collections_count(),\n    }\ndef list_collections() -> list[str]:\n    return get_collection_names()\ndef create_demo_documents_collection() -> None:\n    create_demo_collection()",
+        "detail": "src.backend.services.document_service_old",
+        "documentation": {}
+    },
+    {
+        "label": "list_collections",
+        "kind": 2,
+        "importPath": "src.backend.services.document_service_old",
+        "description": "src.backend.services.document_service_old",
+        "peekOfCode": "def list_collections() -> list[str]:\n    return get_collection_names()\ndef create_demo_documents_collection() -> None:\n    create_demo_collection()\ndef seed_demo_documents() -> None:\n    seed_demo_points()\ndef search_demo_documents() -> list[dict]:\n    return search_demo_points()\ndef create_real_documents_collection() -> None:\n    create_documents_collection()",
+        "detail": "src.backend.services.document_service_old",
+        "documentation": {}
+    },
+    {
+        "label": "create_demo_documents_collection",
+        "kind": 2,
+        "importPath": "src.backend.services.document_service_old",
+        "description": "src.backend.services.document_service_old",
+        "peekOfCode": "def create_demo_documents_collection() -> None:\n    create_demo_collection()\ndef seed_demo_documents() -> None:\n    seed_demo_points()\ndef search_demo_documents() -> list[dict]:\n    return search_demo_points()\ndef create_real_documents_collection() -> None:\n    create_documents_collection()\ndef seed_real_document(document: DocumentCreate) -> dict:\n    document_id = str(uuid4())",
+        "detail": "src.backend.services.document_service_old",
+        "documentation": {}
+    },
+    {
+        "label": "seed_demo_documents",
+        "kind": 2,
+        "importPath": "src.backend.services.document_service_old",
+        "description": "src.backend.services.document_service_old",
+        "peekOfCode": "def seed_demo_documents() -> None:\n    seed_demo_points()\ndef search_demo_documents() -> list[dict]:\n    return search_demo_points()\ndef create_real_documents_collection() -> None:\n    create_documents_collection()\ndef seed_real_document(document: DocumentCreate) -> dict:\n    document_id = str(uuid4())\n    text = parse_document_text(document.text)\n    vector = create_embedding(text)",
+        "detail": "src.backend.services.document_service_old",
+        "documentation": {}
+    },
+    {
+        "label": "search_demo_documents",
+        "kind": 2,
+        "importPath": "src.backend.services.document_service_old",
+        "description": "src.backend.services.document_service_old",
+        "peekOfCode": "def search_demo_documents() -> list[dict]:\n    return search_demo_points()\ndef create_real_documents_collection() -> None:\n    create_documents_collection()\ndef seed_real_document(document: DocumentCreate) -> dict:\n    document_id = str(uuid4())\n    text = parse_document_text(document.text)\n    vector = create_embedding(text)\n    upsert_document(\n        document_id=document_id,",
+        "detail": "src.backend.services.document_service_old",
+        "documentation": {}
+    },
+    {
+        "label": "create_real_documents_collection",
+        "kind": 2,
+        "importPath": "src.backend.services.document_service_old",
+        "description": "src.backend.services.document_service_old",
+        "peekOfCode": "def create_real_documents_collection() -> None:\n    create_documents_collection()\ndef seed_real_document(document: DocumentCreate) -> dict:\n    document_id = str(uuid4())\n    text = parse_document_text(document.text)\n    vector = create_embedding(text)\n    upsert_document(\n        document_id=document_id,\n        vector=vector,\n        text=text,",
+        "detail": "src.backend.services.document_service_old",
+        "documentation": {}
+    },
+    {
+        "label": "seed_real_document",
+        "kind": 2,
+        "importPath": "src.backend.services.document_service_old",
+        "description": "src.backend.services.document_service_old",
+        "peekOfCode": "def seed_real_document(document: DocumentCreate) -> dict:\n    document_id = str(uuid4())\n    text = parse_document_text(document.text)\n    vector = create_embedding(text)\n    upsert_document(\n        document_id=document_id,\n        vector=vector,\n        text=text,\n        source=document.source,\n        category=document.category,",
+        "detail": "src.backend.services.document_service_old",
+        "documentation": {}
+    },
+    {
+        "label": "search_real_documents",
+        "kind": 2,
+        "importPath": "src.backend.services.document_service_old",
+        "description": "src.backend.services.document_service_old",
+        "peekOfCode": "def search_real_documents(request: SearchRequest) -> dict:\n    query_vector = create_embedding(request.query)\n    results = search_documents(\n        query_vector=query_vector,\n        limit=request.limit,\n        category=request.category,\n    )\n    return {\n        \"query\": request.query,\n        \"category\": request.category,",
+        "detail": "src.backend.services.document_service_old",
+        "documentation": {}
+    },
+    {
+        "label": "create_embedding",
+        "kind": 2,
+        "importPath": "src.backend.services.embedding_service",
+        "description": "src.backend.services.embedding_service",
+        "peekOfCode": "def create_embedding(text: str) -> list[float]:\n    embedding = embedding_model.encode(text)\n    return embedding.tolist()",
+        "detail": "src.backend.services.embedding_service",
+        "documentation": {}
+    },
+    {
+        "label": "embedding_model",
+        "kind": 5,
+        "importPath": "src.backend.services.embedding_service",
+        "description": "src.backend.services.embedding_service",
+        "peekOfCode": "embedding_model = SentenceTransformer(settings.embedding_model_name)\ndef create_embedding(text: str) -> list[float]:\n    embedding = embedding_model.encode(text)\n    return embedding.tolist()",
+        "detail": "src.backend.services.embedding_service",
+        "documentation": {}
+    },
+    {
+        "label": "app",
+        "kind": 5,
+        "importPath": "src.backend.main",
+        "description": "src.backend.main",
+        "peekOfCode": "app = FastAPI(\n    title=\"IntelliDocs API\",\n    description=\"AI-powered document knowledge base using Vector Database\",\n    version=\"1.0.0\",\n)\napp.include_router(documents_router)",
+        "detail": "src.backend.main",
+        "documentation": {}
+    }
+]
