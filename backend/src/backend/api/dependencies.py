@@ -1,8 +1,8 @@
-"""Request এলে startup-এ তৈরি controller খুঁজে route-কে দাও।
+"""Provide routes with controllers created at startup.
 
-Depends(get_search_controller) → request.app → state.container → controller।
-Depends নিজে application-wide singleton বানায় না; একই container থেকে
-object ফেরত দেওয়ার কারণেই বহু request একই resource ব্যবহার করে।
+Depends(get_search_controller) → request.app → state.container → controller.
+Depends does not create an app-wide singleton. Requests share resources
+because objects come from the same container.
 """
 
 from fastapi import HTTPException, Request
@@ -13,8 +13,8 @@ from backend.core.container import AppContainer
 
 
 def get_container(request: Request) -> AppContainer:
-    # app.state: application-এর সঙ্গে আমাদের data রাখার জায়গা।
-    # শুধু API layer এটি জানে; service-এর FastAPI জানার দরকার নেই।
+    # app.state stores application-level data.
+    # Only the API layer needs to know about FastAPI.
     container = getattr(request.app.state, "container", None)
     if container is None:
         raise HTTPException(status_code=503, detail="Application is not ready")
